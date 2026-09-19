@@ -1,0 +1,7 @@
+{
+  "original_full_half_mean_max_abs_error": 6.08159356207949e-14,
+  "parallel_max_abs_mean_gain": 1.4696609522890432e-14,
+  "max_kkt_residual": 1.2851941733060812e-12,
+  "code_unchanged_during_run": true,
+  "protocol_unchanged_during_run": true
+}

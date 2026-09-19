@@ -1,0 +1,42 @@
+{
+  "status": "exploratory diagnostic; not execution evidence",
+  "signal": "last 5 completed one-minute bars signed-volume imbalance",
+  "target": "next 15-minute open-to-open return in bps",
+  "bootstrap": "2000 independent resamples of whole UTC days; seed 20260918",
+  "limitations": [
+    "Only 30/31 day clusters; no guarantee under regime changes",
+    "No execution prices, spread, depth or market impact observed",
+    "No alternative signals or horizons searched",
+    "August evaluation outcomes not computed"
+  ],
+  "results": [
+    {
+      "month": "2026-06",
+      "episodes": 2879,
+      "days": 30,
+      "intercept_bps": -0.7782159238736397,
+      "slope_bps_per_unit_imbalance": -1.0111610678086163,
+      "slope_day_bootstrap_percentile_95_interval": [
+        -3.653233961234434,
+        1.712842927659678
+      ],
+      "signal_std": 0.31740492159189226,
+      "return_std_bps": 27.57704395949155,
+      "correlation": -0.011638212562449148
+    },
+    {
+      "month": "2026-07",
+      "episodes": 2975,
+      "days": 31,
+      "intercept_bps": 0.25797890401983625,
+      "slope_bps_per_unit_imbalance": 0.46287708707388153,
+      "slope_day_bootstrap_percentile_95_interval": [
+        -1.193946771929029,
+        2.1616837641034623
+      ],
+      "signal_std": 0.3415587039763303,
+      "return_std_bps": 17.344056909556876,
+      "correlation": 0.009115496955857996
+    }
+  ]
+}

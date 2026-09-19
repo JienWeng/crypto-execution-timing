@@ -1,0 +1,91 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,booktabs,graphicx,natbib,hyperref}
+\hypersetup{colorlinks=true,citecolor=blue,urlcolor=blue,linkcolor=blue}
+\title{Return forecasts and execution timing:\\A matched-endpoint diagnostic for cryptocurrency orders}
+\author{Lai Jien Weng\\Monash University\\\texttt{lai.jienweng@monash.edu}}
+\date{19 September 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+Does an accurate terminal-return forecast justify changing an execution schedule? For fixed-volume orders, common shifts in forecast execution prices leave the optimal schedule unchanged: relative prices across trading opportunities determine timing. We operationalise this familiar principle through a matched-endpoint diagnostic. Four forecast profiles share exactly the same terminal prediction, yet imply different schedules and costs. An exploratory Bitcoin--Ether replay contains 17,664 hypothetical order episodes across six rolling evaluation months. Under the primary hypothetical cost specification, the learned profile generates 0.00370 basis points of average price-alignment benefit but incurs 0.00805 basis points of additional scheduling cost. Its net gain is therefore negative despite positive gross timing benefit. Forecasts indistinguishable by terminal accuracy also produce different model-based outcomes. The contribution is a reproducible diagnostic separating endpoint prediction, timing information and the cost of acting on it; neither the replay nor its uncertainty intervals establish executable trading savings.
+\end{abstract}
+\noindent\textbf{Keywords:} optimal execution; forecast evaluation; transaction costs; Bitcoin; Ether.
+
+\section{Economic question}
+A trader required to complete an order chooses when to trade, not whether to acquire the final position. Forecast evaluation should therefore distinguish predicting the horizon's endpoint from predicting price differences between execution opportunities. A high terminal hit rate alone cannot validate a schedule change. Conversely, positive timing information need not cover the cost of changing the schedule.
+
+These principles are embedded in established execution models. Predictive order flow alters execution through its future profile \citep{cartea2016,lehalle2019}; formulations using expected price contrasts make the terminal-price distinction explicit \citep{forde2022,abijaber2025}. Decision-focused learning likewise separates predictive error from decision loss \citep{elmachtoub2022}. We claim neither a new execution principle nor a new robustness guarantee. Our contribution is an operational diagnostic: hold endpoint forecasts identical, change their temporal profiles, and decompose the resulting schedule's price benefit and cost. This directly tests information omitted by endpoint-only evaluation.
+
+The exercise also differs from uncertainty-gated execution based on next-interval conformal bands \citep{irshad2026}. We examine fixed feasible schedules and a historical exposure coefficient. Cryptocurrency provides an accessible illustration, not a distinct theoretical mechanism. Fee- and order-book-aware crypto execution \citep{bundi2024} is materially richer than our replay. The supplement supplies proofs, the broader literature comparison and corrections to the related preprint \citep{lai2026}.
+
+\section{What endpoint accuracy cannot identify}
+Let $u_j\geq0$ be the fraction of a sell order executed in slot $j$, with $\mathbf1^\top u=1$. For relative sale prices $p$ in basis points, use
+\begin{equation}
+J_p(u)=K(u)-p^\top u,\qquad
+K(u)=\eta N\|u\|^2+\frac rN\|\mathbf1-Lu\|^2,
+\label{eq:cost}
+\end{equation}
+Here $N$ is the number of execution slots and $L_{jk}=1$ for $k\leq j$, and zero otherwise, so $\mathbf1-Lu$ is inventory remaining after each trade. The first term penalises concentrated trades through a hypothetical impact charge ($\eta>0$); the second penalises remaining inventory through a chosen preference ($r\geq0$). Following the execution tradition \citep{almgren2001}, this combined objective balances the two. Its parameters are assumed, not estimated market costs, and a reduction in the objective need not be a cash saving.
+
+For any scalar $a$, $J_{\mu+a\mathbf1}(u)=J_\mu(u)-a$. Thus adding a common level to forecast prices changes neither the optimizer nor paired schedule gains. Expected drift can still matter: a drift changes prices differently across execution slots. The invariance requires fixed completed volume and forecast-independent constraints and costs.
+
+Consider $K(u)=u_1^2+u_2^2$ and realised prices $(3,2)$. Forecasts $(2,2)$, $(3,2)$ and $(1,2)$ all predict the endpoint perfectly. Their optimal schedules are $(1/2,1/2)$, $(3/4,1/4)$ and $(1/4,3/4)$, with baseline-relative gains $0$, $0.125$ and $-0.375$. This constructed example establishes insufficiency of endpoint accuracy, not market profitability. An endpoint can identify timing under additional restrictions tying it to the entire expected path.
+
+Let $u_0$ minimise $K$, $u_1$ minimise $J_\mu$, and $\delta=u_1-u_0$. Mixing schedules preserves feasibility. Quadratic expansion gives
+\begin{equation}
+G(w)=J_p(u_0)-J_p(u_0+w\delta)
+=w(A-B)-w^2C,\quad 0\leq w\leq1,
+\label{eq:gain}
+\end{equation}
+where $A=\delta^\top p$, $B=\nabla K(u_0)^\top\delta\geq0$, and $C=\delta^\top\nabla^2K\delta/2>0$ for nonzero $\delta$. The timing payoff also equals
+\begin{equation}
+A=-\sum_{j=1}^{N-1}\left(\sum_{k=1}^{j}\delta_k\right)(p_{j+1}-p_j).
+\end{equation}
+It prices inventory changes against subsequent price increments, rather than merely the terminal return. Full exposure benefits the objective only when $A>B+C$. Positive price alignment is insufficient.
+
+A common calibration weight maximises historical mean gain at
+$w_P=\operatorname{clip}_{[0,1]}\{\overline{(A-B)}/(2\overline C)\}$.
+Set $w_P=0$ when $\overline C=0$, since all schedule deviations then vanish. A cautious alternative clips the fifth percentile of day-resampled ratios. This is historical policy fitting, not coverage calibration or a guarantee about future regimes. Mixing feasible endpoints need not equal reoptimising a scaled forecast when active constraints change.
+
+\section{Matched-endpoint replay}
+We use public Binance BTCUSDT and ETHUSDT one-minute spot bars for January--August 2026 \citep{binance2026}. Checksums, complete minute grids, finite fields, price bounds and volume consistency were checked before positional indexing: all 699,840 rows passed. Six rolling windows per asset train on one month, calibrate on the next and evaluate on the third, from March through August. Each day has 48 nonoverlapping episodes. The signal is signed taker-buy volume imbalance over five completed bars; fifteen trades use subsequent minute opens with a one-minute initial delay.
+
+Training fits fifteen OLS price-return slopes on the imbalance. Forecasts use the slopes times the training-centred signal, excluding unconditional intercepts. For learned profile $\mu$, compare:
+\begin{equation}
+\mu^{\rm parallel}_j=\mu_N,\qquad
+\mu^{\rm ramp}_j=(j/N)\mu_N,\qquad
+\mu^{\rm mirror}_j=2\mu_N-\mu_j.
+\end{equation}
+All four share the same endpoint, hence identical terminal RMSE, directional accuracy and endpoint $R^2$. Parallel forecasts recover $u_0$. Ramp and mirror are diagnostic constructions, not equally plausible estimated models; the comparison demonstrates what an endpoint metric cannot distinguish, not superiority over trained competitors.
+
+The primary specification is $\eta=2,r=1$; all six combinations of $\eta\in\{0.5,2,5\}$ and $r\in\{0,1\}$ are reported in the supplement. Additional policies use half exposure, the preceding month's plug-in coefficient and its lower-percentile counterpart. No evaluation-month fitting occurs.
+
+This extension was designed after the original Bitcoin evaluation and is explicitly retrospective and exploratory. Pooled means weight episodes equally. Two thousand bootstrap draws resample UTC days, retaining both assets together, with fitted policies fixed. Intervals describe conditional uncertainty; they do not propagate training uncertainty or protect against arbitrary cross-day dependence. Shared rolling windows and multiple comparisons limit confirmatory interpretation.
+
+\section{Results and economic interpretation}
+Table~\ref{tab:profiles} compares identical endpoint predictions over 17,664 hypothetical order episodes and 184 calendar days. The learned schedule's average timing benefit is positive, but its quadratic scheduling cost is larger. The baseline-gradient term is numerically zero in the primary specification because the baseline is interior to the nonnegative simplex. Gross price alignment of $0.00370$ bps is outweighed by curvature cost of $0.00805$ bps, producing $-0.00436$ bps net gain. The interval is $[-0.00829,-0.00047]$, conditional on the stated replay and resampling design.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Matched endpoint forecasts, different execution outcomes. All entries are basis points under hypothetical costs. Parallel gains are analytically zero; raw numerical residuals are below $1.5\times10^{-14}$ in absolute mean gain.}\label{tab:profiles}
+\resizebox{\linewidth}{!}{\input{tables/profiles.tex}}
+\end{table}
+
+The learned-minus-ramp difference is $-0.00341$ bps, with interval $[-0.00770,0.00101]$; the learned profile is not demonstrably superior. Its advantage over the deliberately mirrored profile is $0.00739$ bps, interval $[0.00076,0.01468]$. This diagnostic contrast should not be presented as a victory over a competitive forecasting method.
+
+Terminal hit rates range from $47.9\%$ to $52.6\%$. Bitcoin in May has a $52.6\%$ hit rate yet a learned-schedule gain of $-0.00648$ bps. Ether in May has positive terminal $R^2$ against a zero-return forecast but gain of $-0.00809$ bps. These examples are descriptive; the stronger identification result is that every matched profile has exactly the same endpoint score within every window. Appendix tables report all windows rather than selecting these examples alone.
+
+Reducing exposure changes the benefit--cost balance. Half exposure yields $-0.00017$ bps, interval $[-0.00196,0.00171]$. Plug-in calibration selects positive weights in six of twelve asset-months and yields $0.00124$ bps, interval $[-0.00035,0.00285]$. The lower-percentile rule always selects zero. It avoids the full-exposure loss in this sample, but adds no action beyond unconditional abstention and does not demonstrate superiority to plug-in fitting.
+
+\section{Implication and limits}
+Execution evaluation should report the forecast's timing payoff, the cost of the induced schedule change and the net paired gain alongside endpoint accuracy. The economically relevant condition is benefit exceeding the cost of acting, not predictive accuracy alone. Here an average positive timing benefit fails that condition at full exposure. The resulting loss is only about $0.44$ parts per million of reference notional within the model; statistical detectability does not establish commercial materiality.
+
+The diagnostic is broader than crypto, but the empirical evidence covers only two pairs on one exchange. Minute opens are not verified fills; order size, depth, spreads and endogenous impact are absent. Monetary shortfall is reported separately from the inventory-preference objective. Additional dates or realistic execution data could change performance conclusions. They cannot remove the need to evaluate temporal price contrasts and action costs when endpoint metrics leave those quantities unidentified.
+
+\paragraph{Availability and declarations.}
+Code, hashes, all results and the literature matrix accompany the supplement. The author has approved the manuscript and the stated Monash University affiliation. No funding was received for this research. The author declares no competing interests. OpenAI Codex assisted source discovery, analysis, coding, drafting and internal review. No journal submission or institutional ethics determination is asserted.
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+\end{document}

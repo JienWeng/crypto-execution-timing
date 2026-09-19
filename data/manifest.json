@@ -1,0 +1,68 @@
+[
+  {
+    "month": "2026-06",
+    "role": "estimation",
+    "url": "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2026-06.zip",
+    "sha256": "c8e1d5e70b766dd2312fc9cd7085785bb25708e27e75c21a5a5aaba61a6d07f5",
+    "bytes": 2092027,
+    "rows": 43200,
+    "checks": {
+      "finite": true,
+      "expected_rows": true,
+      "minute_spacing": true,
+      "start_boundary": true,
+      "end_boundary": true,
+      "positive_prices": true,
+      "high_bounds": true,
+      "low_bounds": true,
+      "nonnegative_volume": true,
+      "taker_volume_bounds": true
+    },
+    "retrieved_utc": "2026-09-18T15:16:28.127152+00:00",
+    "prices_are_execution_proxies": true
+  },
+  {
+    "month": "2026-07",
+    "role": "validation",
+    "url": "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2026-07.zip",
+    "sha256": "3ef15c84353da48e1c7c5fd99b9751cb036bf8986ed47f7cd1be63359c0d4f6b",
+    "bytes": 2112275,
+    "rows": 44640,
+    "checks": {
+      "finite": true,
+      "expected_rows": true,
+      "minute_spacing": true,
+      "start_boundary": true,
+      "end_boundary": true,
+      "positive_prices": true,
+      "high_bounds": true,
+      "low_bounds": true,
+      "nonnegative_volume": true,
+      "taker_volume_bounds": true
+    },
+    "retrieved_utc": "2026-09-18T15:16:30.136214+00:00",
+    "prices_are_execution_proxies": true
+  },
+  {
+    "month": "2026-08",
+    "role": "reserved_evaluation_no_outcomes_computed",
+    "url": "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2026-08.zip",
+    "sha256": "acab442e02745177063031d402929703ae983715010064b40cf811c4beb843d4",
+    "bytes": 2084946,
+    "rows": 44640,
+    "checks": {
+      "finite": true,
+      "expected_rows": true,
+      "minute_spacing": true,
+      "start_boundary": true,
+      "end_boundary": true,
+      "positive_prices": true,
+      "high_bounds": true,
+      "low_bounds": true,
+      "nonnegative_volume": true,
+      "taker_volume_bounds": true
+    },
+    "retrieved_utc": "2026-09-18T15:16:33.187413+00:00",
+    "prices_are_execution_proxies": true
+  }
+]

@@ -1,0 +1,68 @@
+{
+  "status": "baseline verification, synthetic parameters; no novelty or crypto-profit claim",
+  "corrected_B_at_tau1_kappa1_phi1": 0.34348235725033377,
+  "corrected_ode_residual": 3.60320107084533e-12,
+  "printed_kernel_divergence": [
+    {
+      "endpoint_cutoff": 0.01,
+      "printed_integral_truncated": 2.488761379479846
+    },
+    {
+      "endpoint_cutoff": 0.0001,
+      "printed_integral_truncated": 4.484012771004773
+    },
+    {
+      "endpoint_cutoff": 1e-06,
+      "printed_integral_truncated": 6.475019675064196
+    },
+    {
+      "endpoint_cutoff": 1e-08,
+      "printed_integral_truncated": 8.465984211579006
+    }
+  ],
+  "clipping_counterexample": {
+    "parameters": {
+      "Q": 1.0,
+      "T": 1.0,
+      "eta": 1.0,
+      "phi": 0.1,
+      "f0": 16.0,
+      "nu": 0,
+      "risk_weight": 0
+    },
+    "optimal_completion_time": 0.5085294256632833,
+    "clipped_completion_time": 0.26067116240774346,
+    "optimal_buy_only_cost": 5.299887641874596,
+    "clipped_with_inventory_stop_cost": 5.811577897249979,
+    "excess_cost": 0.5116902553753828,
+    "relative_excess_percent": 9.654737797316692,
+    "note": "Corrected unconstrained kernel used; original divergent kernel is never evaluated as a policy."
+  },
+  "discrete_feedback_gain_scale": 0.005440806265232934,
+  "feedback_gain_checks": [
+    {
+      "assumed_amplitude": 1.0,
+      "true_amplitude": 0.3,
+      "expected_objective_gain": -0.0010881612530466295,
+      "identity_error": 4.2717565595928875e-17
+    },
+    {
+      "assumed_amplitude": 0.5,
+      "true_amplitude": 0.3,
+      "expected_objective_gain": 0.0001360201566308339,
+      "identity_error": 1.0570971181733668e-17
+    },
+    {
+      "assumed_amplitude": 0.0,
+      "true_amplitude": 0.3,
+      "expected_objective_gain": 0.0,
+      "identity_error": 0.0
+    },
+    {
+      "assumed_amplitude": 1.0,
+      "true_amplitude": 1.0,
+      "expected_objective_gain": 0.0027204031326164696,
+      "identity_error": 2.6020852139652106e-18
+    }
+  ]
+}

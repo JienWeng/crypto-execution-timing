@@ -1,0 +1,8 @@
+{
+  "started_utc": "2026-09-19T07:30:59.089473+00:00",
+  "protocol_sha256": "16274b1d60771479de36b8e6a60a2a46d548e73a4d2d87ee091bcff07ece8524",
+  "code_sha256": "4470dbe4ea028e60940ee6a9530cc4308d7244db3c7302b8e2b28132d906954e",
+  "data_manifest_sha256": "a71cb1346eed2a359e4cbc22c38e64d096e2c22c2c678f50ec4993b1ddc67de7",
+  "original_code_sha256": "248e1c949855d2caed8f91cfa78d149365f9314177a99874ce41310b390f8d02",
+  "status": "review-driven retrospective exploratory extension; not preregistered"
+}

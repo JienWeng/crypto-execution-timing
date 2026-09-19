@@ -1,0 +1,16 @@
+{
+  "status": "synthetic verification only",
+  "seed": 20260918,
+  "paths": 50000,
+  "K": 0.001404519344584368,
+  "max_identity_error": 1.8214596497756474e-17,
+  "monte_carlo": {
+    "beta": 0.3,
+    "amplitude": 0.5,
+    "mean": 3.770306238771094e-05,
+    "expected": 3.5112983614609195e-05,
+    "standard_error": 1.4837681408784262e-06,
+    "z_error": 1.745608833175482
+  },
+  "empirical_claims": false
+}
