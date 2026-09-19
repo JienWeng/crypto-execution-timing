@@ -1,0 +1,19 @@
+{
+  "structure": [
+    "Introduction",
+    "Literature review",
+    "Methodology",
+    "Results and Discussion",
+    "Conclusion"
+  ],
+  "research_references": 40,
+  "documentation_references": 1,
+  "figures": 8,
+  "tables": 4,
+  "unittest_passed": 40,
+  "temporary_layout_build_pages": 21,
+  "tex_warnings": 0,
+  "own_preprint_cited": false,
+  "pdf_publication": false,
+  "interpretation": "Retrospective hypothetical execution; assumed costs; negative pooled mean concentrated in April; no claim of attainable savings."
+}

@@ -1,0 +1,37 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb,amsthm,booktabs,graphicx,natbib,float,placeins,hyperref}
+\hypersetup{colorlinks=true,citecolor=blue,urlcolor=blue,linkcolor=blue}
+\newtheorem{proposition}{Proposition}
+\title{Return forecasts and execution timing:\\A matched-endpoint study of cryptocurrency orders}
+\author{Lai Jien Weng\\Monash University\\\texttt{lai.jienweng@monash.edu}}
+\date{19 September 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+Forecasts used to schedule a required trade should be evaluated against the timing decision they support. Terminal-return accuracy alone leaves expected price differences across execution opportunities unspecified. We develop a transparent matched-endpoint diagnostic within a fixed-volume quadratic execution model and separate the resulting timing payoff from the cost of changing the schedule. Four forecast profiles share exactly the same terminal prediction but induce different schedules and objective outcomes. A retrospective Bitcoin--Ether study uses 699,840 one-minute observations and 17,664 hypothetical order episodes across six rolling evaluation months. Under the primary assumed cost specification, the learned profile produces an average gross timing benefit of 0.00370 basis points, below its 0.00805 basis-point scheduling cost, yielding a negative net gain. The negative average is concentrated in April. Historical attenuation changes this trade-off but does not establish reliable improvement; a lower-percentile policy selects the baseline throughout. The contribution is an operational comparison of forecast targets and decision consequences, supported by complete window-level results and reproducible diagnostics. The elementary execution principle is established in prior work, and the replay does not identify actual fills, market impact or commercially attainable savings.
+\end{abstract}
+\noindent\textbf{Keywords:} optimal execution; forecast evaluation; transaction costs; decision-focused prediction; Bitcoin; Ether.
+
+\input{introduction}
+\input{literature}
+\section{Methodology}\label{sec:methods}
+\input{theory}
+\input{empirical_methods}
+\FloatBarrier
+\input{results}
+\FloatBarrier
+\input{conclusion}
+
+\section*{Data and code availability}
+{\raggedright The source code, archived market data, checksums, protocols, reported results and editable manuscript are available at \url{https://github.com/JienWeng/crypto-execution-timing}. The data are public Binance spot-market aggregates. The repository identifies the archive sources and distinguishes the reported empirical run from additional descriptive displays. Compiled manuscripts are not included in the repository at this stage.\par}
+
+\section*{Author declarations}
+The author has approved the manuscript, authorship and the stated Monash University affiliation. No funding was received for this research. The author declares no competing interests. OpenAI Codex assisted source discovery, mathematical and computational analysis, drafting, figure preparation and internal review. Internal AI reviews are not external journal peer review; responsibility for the manuscript remains with the author. The study uses public aggregate market observations and hypothetical orders, with no human participants, customer-level records or live order placement. No institutional ethics determination or journal submission is asserted.
+
+\begingroup\raggedright
+\bibliographystyle{plainnat}
+\bibliography{references}
+\endgroup
+\end{document}

@@ -1,8 +1,8 @@
 # Crypto execution timing
 
-Reproducibility files for **Return forecasts and execution timing: A matched-endpoint diagnostic for cryptocurrency orders** — Lai Jien Weng, Monash University.
+**Return forecasts and execution timing: A matched-endpoint study of cryptocurrency orders** — Lai Jien Weng, Monash University.
 
-[Manuscript source](manuscript/revised/main.tex) · [BibTeX](manuscript/revised/references.bib)
+[Full manuscript source](manuscript/full/main.tex) · [40-paper bibliography](manuscript/full/references.bib) · [Figures](manuscript/full/figures) · [Data provenance](data/README.md)
 
 ## Reproduce
 
@@ -13,13 +13,9 @@ python3 -m pip install -r requirements.txt
 python3 -m unittest discover -p 'test*.py'
 python3 -m unittest discover -s revisions/2026-09-19 -p 'test*.py'
 python3 revisions/2026-09-19/revision_study.py
-python3 revisions/2026-09-19/build_assets.py
+python3 scripts/build_full_assets.py
 ```
 
-Build PDFs with Tectonic from `manuscript/revised/`: `tectonic main.tex` and `tectonic supplement.tex`.
-
-Sixteen Binance BTC/ETH minute-bar archives (January–August 2026), checksums, protocols and reported results are included. [Data provenance](data/README.md). The study uses 17,664 hypothetical order episodes. Costs are assumed; results do not establish executable trading savings. The extension is retrospective and exploratory.
-
-Analysis and results are in `revisions/2026-09-19/`; earlier files retain the original calibration and reproduction evidence. Reruns overwrite generated results, so use a clean checkout. The supplement documents methods, limitations and AI assistance.
+Includes 16 Binance BTC/ETH minute-bar archives, checksums and results for 17,664 hypothetical orders. The study is retrospective; costs are assumed and gains are not observed trading profits. Reruns overwrite generated results: use a clean checkout. Manuscript sources and PNG/SVG figures are provided; PDFs are excluded. Venue selection is pending.
 
 Contact: lai.jienweng@monash.edu

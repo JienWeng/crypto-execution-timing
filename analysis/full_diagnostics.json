@@ -1,0 +1,1154 @@
+{
+  "source": "Frozen study.json and primary_episodes.csv.gz; no model refit",
+  "primary_decomposition": {
+    "learned": {
+      "price_alignment": 0.003695529004873846,
+      "baseline_cost_gradient": -2.7035934821278926e-16,
+      "curvature": 0.008051941811004703,
+      "mean_shifted_quantity": 0.01816334304031543
+    },
+    "parallel": {
+      "price_alignment": -5.823486077109096e-16,
+      "baseline_cost_gradient": -4.443865074063379e-16,
+      "curvature": 6.615944798521096e-27,
+      "mean_shifted_quantity": 1.9824084605725916e-14
+    },
+    "ramp": {
+      "price_alignment": 0.0033868093917852732,
+      "baseline_cost_gradient": -4.503869703570189e-16,
+      "curvature": 0.0043372938003383744,
+      "mean_shifted_quantity": 0.011912636339917425
+    },
+    "mirror": {
+      "price_alignment": -0.003695529004874986,
+      "baseline_cost_gradient": -6.226748627260002e-16,
+      "curvature": 0.008051941811005056,
+      "mean_shifted_quantity": 0.018163343040315926
+    }
+  },
+  "pooled_primary": [
+    {
+      "eta": 2.0,
+      "risk": 1.0,
+      "policy": "learned",
+      "episodes": 17664,
+      "calendar_days": 184,
+      "mean_gain": -0.004356412806130587,
+      "gain_ci95": [
+        -0.00828560389375923,
+        -0.0004689676907195339
+      ],
+      "equal_asset_month_mean_gain": -0.0044632710708421555,
+      "mean_monetary_gain": -0.004112474108818933,
+      "monetary_ci95": [
+        -0.008045930586061305,
+        -0.00021946288186037508
+      ]
+    },
+    {
+      "eta": 2.0,
+      "risk": 1.0,
+      "policy": "parallel",
+      "episodes": 17664,
+      "calendar_days": 184,
+      "mean_gain": -1.3796210031118743e-16,
+      "gain_ci95": [
+        -4.4538329474688525e-15,
+        4.10966526064433e-15
+      ],
+      "equal_asset_month_mean_gain": -1.1321232217691346e-16,
+      "mean_monetary_gain": -6.3762844298244e-15,
+      "monetary_ci95": [
+        -1.069208245001186e-14,
+        -2.1289134635196996e-15
+      ]
+    },
+    {
+      "eta": 2.0,
+      "risk": 1.0,
+      "policy": "ramp",
+      "episodes": 17664,
+      "calendar_days": 184,
+      "mean_gain": -0.000950484408552651,
+      "gain_ci95": [
+        -0.005202945911377133,
+        0.0028500687195314074
+      ],
+      "equal_asset_month_mean_gain": -0.000984413330976656,
+      "mean_monetary_gain": -0.000775417064180864,
+      "monetary_ci95": [
+        -0.005041931717397798,
+        0.0030811312481317677
+      ]
+    },
+    {
+      "eta": 2.0,
+      "risk": 1.0,
+      "policy": "mirror",
+      "episodes": 17664,
+      "calendar_days": 184,
+      "mean_gain": -0.011747470815879417,
+      "gain_ci95": [
+        -0.015372899590021177,
+        -0.008324370498380007
+      ],
+      "equal_asset_month_mean_gain": -0.01180249555277805,
+      "mean_monetary_gain": -0.011778446657303477,
+      "monetary_ci95": [
+        -0.015414158766004167,
+        -0.008313272029895418
+      ]
+    },
+    {
+      "eta": 2.0,
+      "risk": 1.0,
+      "policy": "half",
+      "episodes": 17664,
+      "calendar_days": 184,
+      "mean_gain": -0.0001652209503141173,
+      "gain_ci95": [
+        -0.001955151087010062,
+        0.0017143904755378553
+      ],
+      "equal_asset_month_mean_gain": -0.00019841470746862055,
+      "mean_monetary_gain": -6.987195864579955e-05,
+      "monetary_ci95": [
+        -0.0018630977624764032,
+        0.0017991412186961085
+      ]
+    },
+    {
+      "eta": 2.0,
+      "risk": 1.0,
+      "policy": "plugin",
+      "episodes": 17664,
+      "calendar_days": 184,
+      "mean_gain": 0.0012388333747862267,
+      "gain_ci95": [
+        -0.00035267421361632247,
+        0.002846401046252536
+      ],
+      "equal_asset_month_mean_gain": 0.0012258485788014413,
+      "mean_monetary_gain": 0.0012471569541181692,
+      "monetary_ci95": [
+        -0.00032412403813099957,
+        0.0028467095004744416
+      ]
+    },
+    {
+      "eta": 2.0,
+      "risk": 1.0,
+      "policy": "conservative",
+      "episodes": 17664,
+      "calendar_days": 184,
+      "mean_gain": 0.0,
+      "gain_ci95": [
+        0.0,
+        0.0
+      ],
+      "equal_asset_month_mean_gain": 0.0,
+      "mean_monetary_gain": 0.0,
+      "monetary_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "eta": 2.0,
+      "risk": 1.0,
+      "policy": "learned_minus_ramp",
+      "episodes": 17664,
+      "calendar_days": 184,
+      "mean_gain": -0.0034059283975779353,
+      "gain_ci95": [
+        -0.007700187381803852,
+        0.0010071307554982516
+      ],
+      "equal_asset_month_mean_gain": -0.003478857739865497,
+      "mean_monetary_gain": -0.003337057044638068,
+      "monetary_ci95": [
+        -0.007665247422194937,
+        0.0010868507444667976
+      ]
+    },
+    {
+      "eta": 2.0,
+      "risk": 1.0,
+      "policy": "learned_minus_mirror",
+      "episodes": 17664,
+      "calendar_days": 184,
+      "mean_gain": 0.007391058009748835,
+      "gain_ci95": [
+        0.0007623066328918136,
+        0.014676430052735927
+      ],
+      "equal_asset_month_mean_gain": 0.007339224481935897,
+      "mean_monetary_gain": 0.007665972548484545,
+      "monetary_ci95": [
+        0.0009777744015727597,
+        0.014939389006873935
+      ]
+    }
+  ],
+  "leave_one_month_out_descriptive": [
+    {
+      "excluded_month": "2026-03",
+      "episodes_retained": 14688,
+      "mean_learned_gain": -0.004883072691754983,
+      "mean_ramp_gain": -0.0009409437429796447
+    },
+    {
+      "excluded_month": "2026-04",
+      "episodes_retained": 14784,
+      "mean_learned_gain": 0.00029720659688839185,
+      "mean_ramp_gain": 0.000893537429433711
+    },
+    {
+      "excluded_month": "2026-05",
+      "episodes_retained": 14688,
+      "mean_learned_gain": -0.0037628177507983314,
+      "mean_ramp_gain": -0.0014959874785923136
+    },
+    {
+      "excluded_month": "2026-06",
+      "episodes_retained": 14784,
+      "mean_learned_gain": -0.0051381548254446924,
+      "mean_ramp_gain": -0.0015651336028640033
+    },
+    {
+      "excluded_month": "2026-07",
+      "episodes_retained": 14688,
+      "mean_learned_gain": -0.0059072845770868415,
+      "mean_ramp_gain": -0.001845012132432826
+    },
+    {
+      "excluded_month": "2026-08",
+      "episodes_retained": 14688,
+      "mean_learned_gain": -0.006769659976715853,
+      "mean_ramp_gain": -0.0007574020391989636
+    }
+  ],
+  "daily_descriptive": [
+    {
+      "utc_day": 20513,
+      "episodes": 96,
+      "mean_learned_gain": -0.016169250891714285
+    },
+    {
+      "utc_day": 20514,
+      "episodes": 96,
+      "mean_learned_gain": -0.0060510235761338125
+    },
+    {
+      "utc_day": 20515,
+      "episodes": 96,
+      "mean_learned_gain": 0.014525346294895512
+    },
+    {
+      "utc_day": 20516,
+      "episodes": 96,
+      "mean_learned_gain": 0.0044454997899439725
+    },
+    {
+      "utc_day": 20517,
+      "episodes": 96,
+      "mean_learned_gain": -0.0018852454541903457
+    },
+    {
+      "utc_day": 20518,
+      "episodes": 96,
+      "mean_learned_gain": -0.00511921763889368
+    },
+    {
+      "utc_day": 20519,
+      "episodes": 96,
+      "mean_learned_gain": 0.00013700890234937877
+    },
+    {
+      "utc_day": 20520,
+      "episodes": 96,
+      "mean_learned_gain": -0.015189134243454113
+    },
+    {
+      "utc_day": 20521,
+      "episodes": 96,
+      "mean_learned_gain": -0.0009359189882692046
+    },
+    {
+      "utc_day": 20522,
+      "episodes": 96,
+      "mean_learned_gain": 0.00697405406199958
+    },
+    {
+      "utc_day": 20523,
+      "episodes": 96,
+      "mean_learned_gain": -0.006248928878149113
+    },
+    {
+      "utc_day": 20524,
+      "episodes": 96,
+      "mean_learned_gain": 0.0007128657122264792
+    },
+    {
+      "utc_day": 20525,
+      "episodes": 96,
+      "mean_learned_gain": -0.0025419495420612383
+    },
+    {
+      "utc_day": 20526,
+      "episodes": 96,
+      "mean_learned_gain": -0.007032060345567085
+    },
+    {
+      "utc_day": 20527,
+      "episodes": 96,
+      "mean_learned_gain": 0.024250303063299162
+    },
+    {
+      "utc_day": 20528,
+      "episodes": 96,
+      "mean_learned_gain": -0.0026161430635067515
+    },
+    {
+      "utc_day": 20529,
+      "episodes": 96,
+      "mean_learned_gain": -0.03580410860043287
+    },
+    {
+      "utc_day": 20530,
+      "episodes": 96,
+      "mean_learned_gain": -0.0006835192131846418
+    },
+    {
+      "utc_day": 20531,
+      "episodes": 96,
+      "mean_learned_gain": 0.006171386713838237
+    },
+    {
+      "utc_day": 20532,
+      "episodes": 96,
+      "mean_learned_gain": 0.00029431790782444983
+    },
+    {
+      "utc_day": 20533,
+      "episodes": 96,
+      "mean_learned_gain": -0.01281759429185395
+    },
+    {
+      "utc_day": 20534,
+      "episodes": 96,
+      "mean_learned_gain": -0.009204840588282246
+    },
+    {
+      "utc_day": 20535,
+      "episodes": 96,
+      "mean_learned_gain": 0.026057390439075404
+    },
+    {
+      "utc_day": 20536,
+      "episodes": 96,
+      "mean_learned_gain": -0.007237760648239562
+    },
+    {
+      "utc_day": 20537,
+      "episodes": 96,
+      "mean_learned_gain": 0.010509865214822908
+    },
+    {
+      "utc_day": 20538,
+      "episodes": 96,
+      "mean_learned_gain": 0.0032948663233820156
+    },
+    {
+      "utc_day": 20539,
+      "episodes": 96,
+      "mean_learned_gain": -0.019933477733917886
+    },
+    {
+      "utc_day": 20540,
+      "episodes": 96,
+      "mean_learned_gain": 0.010981687925841819
+    },
+    {
+      "utc_day": 20541,
+      "episodes": 96,
+      "mean_learned_gain": -0.015954475762153534
+    },
+    {
+      "utc_day": 20542,
+      "episodes": 96,
+      "mean_learned_gain": -0.0006060776652039527
+    },
+    {
+      "utc_day": 20543,
+      "episodes": 96,
+      "mean_learned_gain": 0.003206300286193652
+    },
+    {
+      "utc_day": 20544,
+      "episodes": 96,
+      "mean_learned_gain": -0.039337814067351894
+    },
+    {
+      "utc_day": 20545,
+      "episodes": 96,
+      "mean_learned_gain": -0.013618015511043876
+    },
+    {
+      "utc_day": 20546,
+      "episodes": 96,
+      "mean_learned_gain": -0.08960564673053073
+    },
+    {
+      "utc_day": 20547,
+      "episodes": 96,
+      "mean_learned_gain": -0.04669452933113808
+    },
+    {
+      "utc_day": 20548,
+      "episodes": 96,
+      "mean_learned_gain": -0.012164584398587799
+    },
+    {
+      "utc_day": 20549,
+      "episodes": 96,
+      "mean_learned_gain": -0.016035203864330216
+    },
+    {
+      "utc_day": 20550,
+      "episodes": 96,
+      "mean_learned_gain": -0.0351505218865148
+    },
+    {
+      "utc_day": 20551,
+      "episodes": 96,
+      "mean_learned_gain": 0.012818848532533367
+    },
+    {
+      "utc_day": 20552,
+      "episodes": 96,
+      "mean_learned_gain": -0.021800838106899385
+    },
+    {
+      "utc_day": 20553,
+      "episodes": 96,
+      "mean_learned_gain": -0.05655287860951106
+    },
+    {
+      "utc_day": 20554,
+      "episodes": 96,
+      "mean_learned_gain": -0.031060621932683358
+    },
+    {
+      "utc_day": 20555,
+      "episodes": 96,
+      "mean_learned_gain": -0.01631759254875531
+    },
+    {
+      "utc_day": 20556,
+      "episodes": 96,
+      "mean_learned_gain": -0.03838916761183287
+    },
+    {
+      "utc_day": 20557,
+      "episodes": 96,
+      "mean_learned_gain": 0.03241695754349234
+    },
+    {
+      "utc_day": 20558,
+      "episodes": 96,
+      "mean_learned_gain": -0.04763033732208532
+    },
+    {
+      "utc_day": 20559,
+      "episodes": 96,
+      "mean_learned_gain": -0.022892540395243438
+    },
+    {
+      "utc_day": 20560,
+      "episodes": 96,
+      "mean_learned_gain": -0.0343580839269893
+    },
+    {
+      "utc_day": 20561,
+      "episodes": 96,
+      "mean_learned_gain": -0.08866119585929504
+    },
+    {
+      "utc_day": 20562,
+      "episodes": 96,
+      "mean_learned_gain": -0.028986142524765505
+    },
+    {
+      "utc_day": 20563,
+      "episodes": 96,
+      "mean_learned_gain": 0.010064459737648449
+    },
+    {
+      "utc_day": 20564,
+      "episodes": 96,
+      "mean_learned_gain": -0.006470595938151774
+    },
+    {
+      "utc_day": 20565,
+      "episodes": 96,
+      "mean_learned_gain": -0.08570300466230131
+    },
+    {
+      "utc_day": 20566,
+      "episodes": 96,
+      "mean_learned_gain": 0.0050632497174098665
+    },
+    {
+      "utc_day": 20567,
+      "episodes": 96,
+      "mean_learned_gain": -0.027806570741857068
+    },
+    {
+      "utc_day": 20568,
+      "episodes": 96,
+      "mean_learned_gain": -0.02621812900958784
+    },
+    {
+      "utc_day": 20569,
+      "episodes": 96,
+      "mean_learned_gain": -0.06893291788140947
+    },
+    {
+      "utc_day": 20570,
+      "episodes": 96,
+      "mean_learned_gain": 0.019477286957087756
+    },
+    {
+      "utc_day": 20571,
+      "episodes": 96,
+      "mean_learned_gain": -0.023100590006784133
+    },
+    {
+      "utc_day": 20572,
+      "episodes": 96,
+      "mean_learned_gain": -0.039442650277725845
+    },
+    {
+      "utc_day": 20573,
+      "episodes": 96,
+      "mean_learned_gain": -0.010260401591636449
+    },
+    {
+      "utc_day": 20574,
+      "episodes": 96,
+      "mean_learned_gain": -0.014747209891558788
+    },
+    {
+      "utc_day": 20575,
+      "episodes": 96,
+      "mean_learned_gain": -0.015932247069731554
+    },
+    {
+      "utc_day": 20576,
+      "episodes": 96,
+      "mean_learned_gain": 0.006630956190442214
+    },
+    {
+      "utc_day": 20577,
+      "episodes": 96,
+      "mean_learned_gain": 0.014906040078180081
+    },
+    {
+      "utc_day": 20578,
+      "episodes": 96,
+      "mean_learned_gain": -0.017299272110925464
+    },
+    {
+      "utc_day": 20579,
+      "episodes": 96,
+      "mean_learned_gain": -0.015321959831170193
+    },
+    {
+      "utc_day": 20580,
+      "episodes": 96,
+      "mean_learned_gain": 0.004786564406101618
+    },
+    {
+      "utc_day": 20581,
+      "episodes": 96,
+      "mean_learned_gain": -0.019865199857513536
+    },
+    {
+      "utc_day": 20582,
+      "episodes": 96,
+      "mean_learned_gain": -0.006563045184883229
+    },
+    {
+      "utc_day": 20583,
+      "episodes": 96,
+      "mean_learned_gain": -0.018878882291338907
+    },
+    {
+      "utc_day": 20584,
+      "episodes": 96,
+      "mean_learned_gain": -0.02249284630019896
+    },
+    {
+      "utc_day": 20585,
+      "episodes": 96,
+      "mean_learned_gain": -0.005177400600083919
+    },
+    {
+      "utc_day": 20586,
+      "episodes": 96,
+      "mean_learned_gain": -0.007994875743549805
+    },
+    {
+      "utc_day": 20587,
+      "episodes": 96,
+      "mean_learned_gain": -0.003396042259560462
+    },
+    {
+      "utc_day": 20588,
+      "episodes": 96,
+      "mean_learned_gain": -0.007240420495280845
+    },
+    {
+      "utc_day": 20589,
+      "episodes": 96,
+      "mean_learned_gain": -0.01598145574187283
+    },
+    {
+      "utc_day": 20590,
+      "episodes": 96,
+      "mean_learned_gain": -0.0023956701184701425
+    },
+    {
+      "utc_day": 20591,
+      "episodes": 96,
+      "mean_learned_gain": 0.0013578397897232141
+    },
+    {
+      "utc_day": 20592,
+      "episodes": 96,
+      "mean_learned_gain": -0.004139085186334092
+    },
+    {
+      "utc_day": 20593,
+      "episodes": 96,
+      "mean_learned_gain": -0.004213412986167808
+    },
+    {
+      "utc_day": 20594,
+      "episodes": 96,
+      "mean_learned_gain": -0.008254136646434098
+    },
+    {
+      "utc_day": 20595,
+      "episodes": 96,
+      "mean_learned_gain": -0.008541012178864738
+    },
+    {
+      "utc_day": 20596,
+      "episodes": 96,
+      "mean_learned_gain": 0.012762157832362507
+    },
+    {
+      "utc_day": 20597,
+      "episodes": 96,
+      "mean_learned_gain": 0.014770651856205073
+    },
+    {
+      "utc_day": 20598,
+      "episodes": 96,
+      "mean_learned_gain": -0.013628441743599432
+    },
+    {
+      "utc_day": 20599,
+      "episodes": 96,
+      "mean_learned_gain": -0.015301342626401858
+    },
+    {
+      "utc_day": 20600,
+      "episodes": 96,
+      "mean_learned_gain": -0.01822116264348314
+    },
+    {
+      "utc_day": 20601,
+      "episodes": 96,
+      "mean_learned_gain": -0.009687268229778364
+    },
+    {
+      "utc_day": 20602,
+      "episodes": 96,
+      "mean_learned_gain": 0.011763266144528278
+    },
+    {
+      "utc_day": 20603,
+      "episodes": 96,
+      "mean_learned_gain": -0.006538573415805248
+    },
+    {
+      "utc_day": 20604,
+      "episodes": 96,
+      "mean_learned_gain": -0.031035353600418685
+    },
+    {
+      "utc_day": 20605,
+      "episodes": 96,
+      "mean_learned_gain": -0.01011622355398427
+    },
+    {
+      "utc_day": 20606,
+      "episodes": 96,
+      "mean_learned_gain": -0.027465125217545613
+    },
+    {
+      "utc_day": 20607,
+      "episodes": 96,
+      "mean_learned_gain": 0.015776294090821076
+    },
+    {
+      "utc_day": 20608,
+      "episodes": 96,
+      "mean_learned_gain": -0.018598849942516548
+    },
+    {
+      "utc_day": 20609,
+      "episodes": 96,
+      "mean_learned_gain": -0.03159761188732748
+    },
+    {
+      "utc_day": 20610,
+      "episodes": 96,
+      "mean_learned_gain": -0.0032447061139367814
+    },
+    {
+      "utc_day": 20611,
+      "episodes": 96,
+      "mean_learned_gain": 0.03859760826946849
+    },
+    {
+      "utc_day": 20612,
+      "episodes": 96,
+      "mean_learned_gain": -0.00501566097246426
+    },
+    {
+      "utc_day": 20613,
+      "episodes": 96,
+      "mean_learned_gain": 0.009150974454318126
+    },
+    {
+      "utc_day": 20614,
+      "episodes": 96,
+      "mean_learned_gain": 0.0253114376030088
+    },
+    {
+      "utc_day": 20615,
+      "episodes": 96,
+      "mean_learned_gain": -0.013993099814780337
+    },
+    {
+      "utc_day": 20616,
+      "episodes": 96,
+      "mean_learned_gain": 0.0011066659834353548
+    },
+    {
+      "utc_day": 20617,
+      "episodes": 96,
+      "mean_learned_gain": 0.00689464180025658
+    },
+    {
+      "utc_day": 20618,
+      "episodes": 96,
+      "mean_learned_gain": 0.00297465073805103
+    },
+    {
+      "utc_day": 20619,
+      "episodes": 96,
+      "mean_learned_gain": -0.020222680420774703
+    },
+    {
+      "utc_day": 20620,
+      "episodes": 96,
+      "mean_learned_gain": -0.021384324476574335
+    },
+    {
+      "utc_day": 20621,
+      "episodes": 96,
+      "mean_learned_gain": -0.027618142768772377
+    },
+    {
+      "utc_day": 20622,
+      "episodes": 96,
+      "mean_learned_gain": -0.0033476229619724073
+    },
+    {
+      "utc_day": 20623,
+      "episodes": 96,
+      "mean_learned_gain": 0.005275020054168832
+    },
+    {
+      "utc_day": 20624,
+      "episodes": 96,
+      "mean_learned_gain": 0.02267004505076615
+    },
+    {
+      "utc_day": 20625,
+      "episodes": 96,
+      "mean_learned_gain": -0.008904252650681796
+    },
+    {
+      "utc_day": 20626,
+      "episodes": 96,
+      "mean_learned_gain": -0.01984940943194081
+    },
+    {
+      "utc_day": 20627,
+      "episodes": 96,
+      "mean_learned_gain": 0.010680930496699983
+    },
+    {
+      "utc_day": 20628,
+      "episodes": 96,
+      "mean_learned_gain": 0.018686856508134585
+    },
+    {
+      "utc_day": 20629,
+      "episodes": 96,
+      "mean_learned_gain": -0.0013218723532820815
+    },
+    {
+      "utc_day": 20630,
+      "episodes": 96,
+      "mean_learned_gain": 0.0007062272013577444
+    },
+    {
+      "utc_day": 20631,
+      "episodes": 96,
+      "mean_learned_gain": 0.00870509219400926
+    },
+    {
+      "utc_day": 20632,
+      "episodes": 96,
+      "mean_learned_gain": 0.009218485588568553
+    },
+    {
+      "utc_day": 20633,
+      "episodes": 96,
+      "mean_learned_gain": 0.04135848526477092
+    },
+    {
+      "utc_day": 20634,
+      "episodes": 96,
+      "mean_learned_gain": -0.014737945940827028
+    },
+    {
+      "utc_day": 20635,
+      "episodes": 96,
+      "mean_learned_gain": 0.024585369137973514
+    },
+    {
+      "utc_day": 20636,
+      "episodes": 96,
+      "mean_learned_gain": 0.01039905933219977
+    },
+    {
+      "utc_day": 20637,
+      "episodes": 96,
+      "mean_learned_gain": 0.013176811963235044
+    },
+    {
+      "utc_day": 20638,
+      "episodes": 96,
+      "mean_learned_gain": 0.0037941249224440476
+    },
+    {
+      "utc_day": 20639,
+      "episodes": 96,
+      "mean_learned_gain": -0.0091288737960046
+    },
+    {
+      "utc_day": 20640,
+      "episodes": 96,
+      "mean_learned_gain": -0.004080706233698435
+    },
+    {
+      "utc_day": 20641,
+      "episodes": 96,
+      "mean_learned_gain": 0.029515965580513965
+    },
+    {
+      "utc_day": 20642,
+      "episodes": 96,
+      "mean_learned_gain": -0.0041725925522119
+    },
+    {
+      "utc_day": 20643,
+      "episodes": 96,
+      "mean_learned_gain": 0.013296276889978115
+    },
+    {
+      "utc_day": 20644,
+      "episodes": 96,
+      "mean_learned_gain": 0.015295541045098289
+    },
+    {
+      "utc_day": 20645,
+      "episodes": 96,
+      "mean_learned_gain": 0.004716538034504727
+    },
+    {
+      "utc_day": 20646,
+      "episodes": 96,
+      "mean_learned_gain": 0.005100069052039048
+    },
+    {
+      "utc_day": 20647,
+      "episodes": 96,
+      "mean_learned_gain": 0.01638782530760299
+    },
+    {
+      "utc_day": 20648,
+      "episodes": 96,
+      "mean_learned_gain": 0.028868369955322087
+    },
+    {
+      "utc_day": 20649,
+      "episodes": 96,
+      "mean_learned_gain": -0.0414713776947848
+    },
+    {
+      "utc_day": 20650,
+      "episodes": 96,
+      "mean_learned_gain": 0.028979404831674105
+    },
+    {
+      "utc_day": 20651,
+      "episodes": 96,
+      "mean_learned_gain": -0.004728513727057108
+    },
+    {
+      "utc_day": 20652,
+      "episodes": 96,
+      "mean_learned_gain": -0.021430377829869465
+    },
+    {
+      "utc_day": 20653,
+      "episodes": 96,
+      "mean_learned_gain": -0.019963956249859402
+    },
+    {
+      "utc_day": 20654,
+      "episodes": 96,
+      "mean_learned_gain": 0.024174887602049958
+    },
+    {
+      "utc_day": 20655,
+      "episodes": 96,
+      "mean_learned_gain": -0.005253819989970738
+    },
+    {
+      "utc_day": 20656,
+      "episodes": 96,
+      "mean_learned_gain": 0.04772634687172886
+    },
+    {
+      "utc_day": 20657,
+      "episodes": 96,
+      "mean_learned_gain": 0.019078408921399014
+    },
+    {
+      "utc_day": 20658,
+      "episodes": 96,
+      "mean_learned_gain": 0.010600616654993228
+    },
+    {
+      "utc_day": 20659,
+      "episodes": 96,
+      "mean_learned_gain": -0.025194183790614805
+    },
+    {
+      "utc_day": 20660,
+      "episodes": 96,
+      "mean_learned_gain": 0.0007625131178096382
+    },
+    {
+      "utc_day": 20661,
+      "episodes": 96,
+      "mean_learned_gain": -0.014689816023888726
+    },
+    {
+      "utc_day": 20662,
+      "episodes": 96,
+      "mean_learned_gain": -0.013263052120462353
+    },
+    {
+      "utc_day": 20663,
+      "episodes": 96,
+      "mean_learned_gain": -0.025442603469041744
+    },
+    {
+      "utc_day": 20664,
+      "episodes": 96,
+      "mean_learned_gain": 0.0021548206115737157
+    },
+    {
+      "utc_day": 20665,
+      "episodes": 96,
+      "mean_learned_gain": -0.007558492388417142
+    },
+    {
+      "utc_day": 20666,
+      "episodes": 96,
+      "mean_learned_gain": -0.005114168500397725
+    },
+    {
+      "utc_day": 20667,
+      "episodes": 96,
+      "mean_learned_gain": -0.003038266674015857
+    },
+    {
+      "utc_day": 20668,
+      "episodes": 96,
+      "mean_learned_gain": -0.004077749131649523
+    },
+    {
+      "utc_day": 20669,
+      "episodes": 96,
+      "mean_learned_gain": -0.024220418957829046
+    },
+    {
+      "utc_day": 20670,
+      "episodes": 96,
+      "mean_learned_gain": -0.01599258873000491
+    },
+    {
+      "utc_day": 20671,
+      "episodes": 96,
+      "mean_learned_gain": -0.005154982848444712
+    },
+    {
+      "utc_day": 20672,
+      "episodes": 96,
+      "mean_learned_gain": -0.021019375668724468
+    },
+    {
+      "utc_day": 20673,
+      "episodes": 96,
+      "mean_learned_gain": -0.013024414174210998
+    },
+    {
+      "utc_day": 20674,
+      "episodes": 96,
+      "mean_learned_gain": 0.007923520862059946
+    },
+    {
+      "utc_day": 20675,
+      "episodes": 96,
+      "mean_learned_gain": 0.023041035383203855
+    },
+    {
+      "utc_day": 20676,
+      "episodes": 96,
+      "mean_learned_gain": 0.0009888732533655808
+    },
+    {
+      "utc_day": 20677,
+      "episodes": 96,
+      "mean_learned_gain": -0.025729398956021995
+    },
+    {
+      "utc_day": 20678,
+      "episodes": 96,
+      "mean_learned_gain": -0.00854732204249354
+    },
+    {
+      "utc_day": 20679,
+      "episodes": 96,
+      "mean_learned_gain": -0.007485271320846591
+    },
+    {
+      "utc_day": 20680,
+      "episodes": 96,
+      "mean_learned_gain": 0.010705935270102144
+    },
+    {
+      "utc_day": 20681,
+      "episodes": 96,
+      "mean_learned_gain": -0.015221706018132372
+    },
+    {
+      "utc_day": 20682,
+      "episodes": 96,
+      "mean_learned_gain": -0.008673753955051421
+    },
+    {
+      "utc_day": 20683,
+      "episodes": 96,
+      "mean_learned_gain": -0.003175654230765312
+    },
+    {
+      "utc_day": 20684,
+      "episodes": 96,
+      "mean_learned_gain": 0.03389624678270276
+    },
+    {
+      "utc_day": 20685,
+      "episodes": 96,
+      "mean_learned_gain": 0.030579985183773344
+    },
+    {
+      "utc_day": 20686,
+      "episodes": 96,
+      "mean_learned_gain": 0.13977570702582276
+    },
+    {
+      "utc_day": 20687,
+      "episodes": 96,
+      "mean_learned_gain": -0.07548960155639012
+    },
+    {
+      "utc_day": 20688,
+      "episodes": 96,
+      "mean_learned_gain": 0.07796825905088818
+    },
+    {
+      "utc_day": 20689,
+      "episodes": 96,
+      "mean_learned_gain": 0.015523682158995735
+    },
+    {
+      "utc_day": 20690,
+      "episodes": 96,
+      "mean_learned_gain": 0.0568980931505233
+    },
+    {
+      "utc_day": 20691,
+      "episodes": 96,
+      "mean_learned_gain": -0.016687173667557956
+    },
+    {
+      "utc_day": 20692,
+      "episodes": 96,
+      "mean_learned_gain": 0.043961144543537195
+    },
+    {
+      "utc_day": 20693,
+      "episodes": 96,
+      "mean_learned_gain": 0.01846832643030603
+    },
+    {
+      "utc_day": 20694,
+      "episodes": 96,
+      "mean_learned_gain": 0.0180833934273443
+    },
+    {
+      "utc_day": 20695,
+      "episodes": 96,
+      "mean_learned_gain": 0.02230711628541048
+    },
+    {
+      "utc_day": 20696,
+      "episodes": 96,
+      "mean_learned_gain": -0.01329145226600155
+    }
+  ],
+  "figure_count": 8
+}
