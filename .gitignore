@@ -7,3 +7,6 @@ __pycache__/
 *.blg
 *.out
 manuscript/revised/*.pdf
+
+# Compiled papers stay local until publication is requested.
+*.pdf

@@ -2,7 +2,7 @@
 
 Reproducibility files for **Return forecasts and execution timing: A matched-endpoint diagnostic for cryptocurrency orders** — Lai Jien Weng, Monash University.
 
-[Paper](output/pdf/crypto_execution_revised.pdf) · [Supplement](output/pdf/crypto_execution_supplement.pdf) · [BibTeX](manuscript/revised/references.bib)
+[Manuscript source](manuscript/revised/main.tex) · [BibTeX](manuscript/revised/references.bib)
 
 ## Reproduce
 
