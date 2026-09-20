@@ -1,0 +1,7206 @@
+{
+  "scope": "post-run verification, no model or selector changes",
+  "max_equality_solution_identity_error": 9.094947017729282e-13,
+  "rows": [
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-03",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1344,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 124,
+        "ridge_01": 454,
+        "ridge_1": 140
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-03",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1344,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 149,
+        "ridge_01": 487,
+        "ridge_1": 164
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-03",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1344,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 1,
+        "ridge_01": 17,
+        "ridge_1": 2
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-03",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1344,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 2,
+        "ridge_01": 20,
+        "ridge_1": 3
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-03",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1344,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-03",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1344,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-03",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 63,
+        "ridge_01": 366,
+        "ridge_1": 75
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-03",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 85,
+        "ridge_01": 387,
+        "ridge_1": 102
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-03",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 1,
+        "ridge_01": 5,
+        "ridge_1": 1
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-03",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 1,
+        "ridge_01": 7,
+        "ridge_1": 1
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-03",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-03",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-04",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 1488,
+        "flow1": 1488,
+        "flow5": 1285,
+        "momentum5": 1488,
+        "ridge_01": 1252,
+        "ridge_1": 1225
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-04",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 1488,
+        "flow1": 1488,
+        "flow5": 1427,
+        "momentum5": 1488,
+        "ridge_01": 1314,
+        "ridge_1": 1338
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-04",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 9,
+        "ridge_01": 44,
+        "ridge_1": 4
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-04",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 9,
+        "ridge_01": 53,
+        "ridge_1": 5
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-04",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 1,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-04",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 1,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-04",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 1440,
+        "flow1": 1440,
+        "flow5": 1227,
+        "momentum5": 1440,
+        "ridge_01": 1138,
+        "ridge_1": 1019
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-04",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 1440,
+        "flow1": 1440,
+        "flow5": 1365,
+        "momentum5": 1440,
+        "ridge_01": 1193,
+        "ridge_1": 1153
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-04",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 2,
+        "ridge_01": 17,
+        "ridge_1": 1
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-04",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 2,
+        "ridge_01": 23,
+        "ridge_1": 1
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-04",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-04",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-05",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 314,
+        "flow5": 17,
+        "momentum5": 89,
+        "ridge_01": 597,
+        "ridge_1": 106
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "mean",
+      "utility_choice": "mean"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-05",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 102,
+        "flow5": 5,
+        "momentum5": 102,
+        "ridge_01": 454,
+        "ridge_1": 40
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "mean",
+      "utility_choice": "mean"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-05",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 2,
+        "ridge_01": 3,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "mean",
+      "utility_choice": "mean"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-05",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 2,
+        "ridge_01": 4,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "mean",
+      "utility_choice": "mean"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-05",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "mean",
+      "utility_choice": "mean"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-05",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "mean",
+      "utility_choice": "mean"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-05",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 397,
+        "flow5": 17,
+        "momentum5": 41,
+        "ridge_01": 678,
+        "ridge_1": 120
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-05",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 154,
+        "flow5": 8,
+        "momentum5": 58,
+        "ridge_01": 513,
+        "ridge_1": 26
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-05",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-05",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-05",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-05",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-06",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 103,
+        "ridge_01": 236,
+        "ridge_1": 51
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-06",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 96,
+        "ridge_01": 143,
+        "ridge_1": 29
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-06",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 1,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-06",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 1,
+        "ridge_01": 1,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-06",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-06",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-06",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 282,
+        "ridge_01": 438,
+        "ridge_1": 152
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-06",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 296,
+        "ridge_01": 351,
+        "ridge_1": 114
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-06",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 14,
+        "ridge_01": 17,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-06",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 12,
+        "ridge_01": 14,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-06",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-06",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-07",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 201,
+        "ridge_01": 376,
+        "ridge_1": 91
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-07",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 235,
+        "ridge_01": 408,
+        "ridge_1": 115
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-07",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 3,
+        "ridge_01": 7,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-07",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 3,
+        "ridge_01": 7,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-07",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-07",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-07",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 56,
+        "ridge_01": 158,
+        "ridge_1": 19
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "flow1",
+      "utility_choice": "flow1"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-07",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 79,
+        "ridge_01": 208,
+        "ridge_1": 24
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "flow1",
+      "utility_choice": "flow1"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-07",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 2,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "flow1",
+      "utility_choice": "flow1"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-07",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 2,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "flow1",
+      "utility_choice": "flow1"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-07",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "flow1",
+      "utility_choice": "flow1"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-07",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "flow1",
+      "utility_choice": "flow1"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-08",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 86,
+        "momentum5": 23,
+        "ridge_01": 251,
+        "ridge_1": 20
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-08",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 178,
+        "momentum5": 27,
+        "ridge_01": 337,
+        "ridge_1": 56
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-08",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 1,
+        "ridge_01": 1,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-08",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 1,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-08",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-08",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-08",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 93,
+        "momentum5": 36,
+        "ridge_01": 288,
+        "ridge_1": 22
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-08",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 181,
+        "momentum5": 28,
+        "ridge_01": 323,
+        "ridge_1": 48
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-08",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 2,
+        "ridge_01": 3,
+        "ridge_1": 1
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-08",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 2,
+        "ridge_01": 2,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-08",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "evaluation": "2026-08",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-03",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1344,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 173,
+        "ridge_01": 619,
+        "ridge_1": 242
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "ridge_1",
+      "utility_choice": "ridge_1"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-03",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1344,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 5,
+        "momentum5": 221,
+        "ridge_01": 610,
+        "ridge_1": 237
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "ridge_1",
+      "utility_choice": "ridge_1"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-03",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1344,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 3,
+        "ridge_01": 39,
+        "ridge_1": 3
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "ridge_1",
+      "utility_choice": "ridge_1"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-03",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1344,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 4,
+        "ridge_01": 32,
+        "ridge_1": 6
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "ridge_1",
+      "utility_choice": "ridge_1"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-03",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1344,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 3,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "ridge_1",
+      "utility_choice": "ridge_1"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-03",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1344,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 3,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "ridge_1",
+      "utility_choice": "ridge_1"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-03",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 3,
+        "momentum5": 111,
+        "ridge_01": 534,
+        "ridge_1": 122
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-03",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 12,
+        "momentum5": 149,
+        "ridge_01": 507,
+        "ridge_1": 129
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-03",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 4,
+        "ridge_01": 13,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-03",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 4,
+        "ridge_01": 13,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-03",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-03",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-04",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 1488,
+        "flow1": 1488,
+        "flow5": 1488,
+        "momentum5": 1488,
+        "ridge_01": 1402,
+        "ridge_1": 1432
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-04",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 1488,
+        "flow1": 1488,
+        "flow5": 1488,
+        "momentum5": 1488,
+        "ridge_01": 1403,
+        "ridge_1": 1456
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-04",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 119,
+        "flow5": 10,
+        "momentum5": 23,
+        "ridge_01": 252,
+        "ridge_1": 68
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-04",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 140,
+        "flow5": 29,
+        "momentum5": 26,
+        "ridge_01": 284,
+        "ridge_1": 90
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-04",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 3,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-04",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 3,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-04",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 1440,
+        "flow1": 1440,
+        "flow5": 1440,
+        "momentum5": 1440,
+        "ridge_01": 1337,
+        "ridge_1": 1354
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-04",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 1440,
+        "flow1": 1440,
+        "flow5": 1440,
+        "momentum5": 1440,
+        "ridge_01": 1337,
+        "ridge_1": 1387
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-04",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 147,
+        "flow5": 14,
+        "momentum5": 9,
+        "ridge_01": 155,
+        "ridge_1": 26
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-04",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 167,
+        "flow5": 29,
+        "momentum5": 10,
+        "ridge_01": 190,
+        "ridge_1": 39
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-04",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 1,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-04",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 1,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-05",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 28,
+        "momentum5": 230,
+        "ridge_01": 392,
+        "ridge_1": 169
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "mean",
+      "utility_choice": "mean"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-05",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 65,
+        "flow5": 6,
+        "momentum5": 106,
+        "ridge_01": 270,
+        "ridge_1": 29
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "mean",
+      "utility_choice": "mean"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-05",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 1,
+        "ridge_01": 1,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "mean",
+      "utility_choice": "mean"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-05",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 1,
+        "ridge_01": 1,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "mean",
+      "utility_choice": "mean"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-05",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "mean",
+      "utility_choice": "mean"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-05",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "mean",
+      "utility_choice": "mean"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-05",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 58,
+        "momentum5": 156,
+        "ridge_01": 359,
+        "ridge_1": 119
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-05",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 88,
+        "flow5": 11,
+        "momentum5": 53,
+        "ridge_01": 267,
+        "ridge_1": 17
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-05",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 1,
+        "ridge_01": 2,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-05",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 1,
+        "ridge_01": 1,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-05",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-05",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-06",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 127,
+        "momentum5": 88,
+        "ridge_01": 351,
+        "ridge_1": 57
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-06",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 68,
+        "ridge_01": 187,
+        "ridge_1": 32
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-06",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 1,
+        "ridge_01": 1,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-06",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 1,
+        "ridge_01": 1,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-06",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-06",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-06",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 96,
+        "momentum5": 228,
+        "ridge_01": 498,
+        "ridge_1": 148
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-06",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 223,
+        "ridge_01": 401,
+        "ridge_1": 89
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-06",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 8,
+        "ridge_01": 10,
+        "ridge_1": 1
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-06",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 8,
+        "ridge_01": 9,
+        "ridge_1": 2
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-06",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 1,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-06",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 1,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-07",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 4,
+        "momentum5": 461,
+        "ridge_01": 556,
+        "ridge_1": 235
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "flow5",
+      "utility_choice": "flow5"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-07",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 13,
+        "momentum5": 462,
+        "ridge_01": 602,
+        "ridge_1": 250
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "flow5",
+      "utility_choice": "flow5"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-07",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 14,
+        "ridge_01": 26,
+        "ridge_1": 2
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "flow5",
+      "utility_choice": "flow5"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-07",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 15,
+        "ridge_01": 21,
+        "ridge_1": 2
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "flow5",
+      "utility_choice": "flow5"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-07",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 1,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "flow5",
+      "utility_choice": "flow5"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-07",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 1,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "flow5",
+      "utility_choice": "flow5"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-07",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 5,
+        "momentum5": 291,
+        "ridge_01": 379,
+        "ridge_1": 89
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-07",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 17,
+        "momentum5": 314,
+        "ridge_01": 425,
+        "ridge_1": 104
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-07",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 4,
+        "ridge_01": 5,
+        "ridge_1": 1
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-07",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 4,
+        "ridge_01": 4,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-07",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-07",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-08",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 251,
+        "momentum5": 133,
+        "ridge_01": 572,
+        "ridge_1": 132
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "ridge_1"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-08",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 425,
+        "momentum5": 113,
+        "ridge_01": 660,
+        "ridge_1": 245
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "ridge_1"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-08",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 3,
+        "ridge_01": 5,
+        "ridge_1": 3
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-08",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 3,
+        "ridge_01": 5,
+        "ridge_1": 3
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-08",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-08",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-08",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 263,
+        "momentum5": 132,
+        "ridge_01": 612,
+        "ridge_1": 168
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-08",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 443,
+        "momentum5": 117,
+        "ridge_01": 736,
+        "ridge_1": 248
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-08",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 8,
+        "ridge_01": 17,
+        "ridge_1": 3
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-08",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 3,
+        "ridge_01": 9,
+        "ridge_1": 3
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-08",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 1,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "evaluation": "2026-08",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 1,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-03",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1344,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 40,
+        "flow5": 10,
+        "momentum5": 497,
+        "ridge_01": 918,
+        "ridge_1": 409
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "mean",
+      "utility_choice": "mean"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-03",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1344,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 46,
+        "flow5": 33,
+        "momentum5": 469,
+        "ridge_01": 876,
+        "ridge_1": 459
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "mean",
+      "utility_choice": "mean"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-03",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1344,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 41,
+        "ridge_01": 69,
+        "ridge_1": 8
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "mean",
+      "utility_choice": "mean"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-03",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1344,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 33,
+        "ridge_01": 72,
+        "ridge_1": 8
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "mean",
+      "utility_choice": "mean"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-03",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1344,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 2,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "mean",
+      "utility_choice": "mean"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-03",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1344,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 2,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "mean",
+      "utility_choice": "mean"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-03",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 105,
+        "flow5": 51,
+        "momentum5": 406,
+        "ridge_01": 935,
+        "ridge_1": 348
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-03",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 86,
+        "flow5": 76,
+        "momentum5": 409,
+        "ridge_01": 881,
+        "ridge_1": 370
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-03",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 18,
+        "ridge_01": 28,
+        "ridge_1": 4
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-03",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 14,
+        "ridge_01": 29,
+        "ridge_1": 4
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-03",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 1,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-03",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 1,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-04",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 1488,
+        "flow1": 1488,
+        "flow5": 1488,
+        "momentum5": 1488,
+        "ridge_01": 1437,
+        "ridge_1": 1469
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-04",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 1488,
+        "flow1": 1488,
+        "flow5": 1488,
+        "momentum5": 1488,
+        "ridge_01": 1461,
+        "ridge_1": 1476
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-04",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 19,
+        "ridge_01": 273,
+        "ridge_1": 106
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-04",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 23,
+        "ridge_01": 319,
+        "ridge_1": 150
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-04",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 1,
+        "ridge_01": 1,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-04",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 1,
+        "ridge_01": 1,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-04",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 1440,
+        "flow1": 1440,
+        "flow5": 1440,
+        "momentum5": 1440,
+        "ridge_01": 1361,
+        "ridge_1": 1406
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-04",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 1440,
+        "flow1": 1440,
+        "flow5": 1440,
+        "momentum5": 1440,
+        "ridge_01": 1395,
+        "ridge_1": 1423
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-04",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 7,
+        "ridge_01": 190,
+        "ridge_1": 82
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-04",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 10,
+        "ridge_01": 227,
+        "ridge_1": 118
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-04",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-04",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-05",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 749,
+        "flow5": 342,
+        "momentum5": 293,
+        "ridge_01": 866,
+        "ridge_1": 354
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "mean",
+      "utility_choice": "mean"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-05",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 451,
+        "flow5": 182,
+        "momentum5": 141,
+        "ridge_01": 811,
+        "ridge_1": 170
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "mean",
+      "utility_choice": "mean"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-05",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 9,
+        "ridge_01": 20,
+        "ridge_1": 2
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "mean",
+      "utility_choice": "mean"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-05",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 6,
+        "ridge_01": 14,
+        "ridge_1": 1
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "mean",
+      "utility_choice": "mean"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-05",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "mean",
+      "utility_choice": "mean"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-05",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "mean",
+      "utility_choice": "mean"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-05",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 775,
+        "flow5": 293,
+        "momentum5": 268,
+        "ridge_01": 887,
+        "ridge_1": 321
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-05",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 473,
+        "flow5": 157,
+        "momentum5": 124,
+        "ridge_01": 835,
+        "ridge_1": 144
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-05",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 5,
+        "ridge_01": 10,
+        "ridge_1": 2
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-05",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 3,
+        "ridge_01": 9,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-05",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-05",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-06",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 60,
+        "flow5": 87,
+        "momentum5": 338,
+        "ridge_01": 597,
+        "ridge_1": 152
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-06",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 9,
+        "momentum5": 312,
+        "ridge_01": 453,
+        "ridge_1": 152
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-06",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 12,
+        "ridge_01": 9,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-06",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 10,
+        "ridge_01": 9,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-06",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-06",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-06",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 24,
+        "flow5": 36,
+        "momentum5": 586,
+        "ridge_01": 813,
+        "ridge_1": 357
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-06",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 561,
+        "ridge_01": 757,
+        "ridge_1": 373
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-06",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 56,
+        "ridge_01": 57,
+        "ridge_1": 6
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-06",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 54,
+        "ridge_01": 60,
+        "ridge_1": 6
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-06",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 2,
+        "ridge_01": 2,
+        "ridge_1": 1
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-06",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 2,
+        "ridge_01": 2,
+        "ridge_1": 1
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-07",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 231,
+        "momentum5": 263,
+        "ridge_01": 750,
+        "ridge_1": 208
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "flow5",
+      "utility_choice": "flow5"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-07",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 5,
+        "flow5": 402,
+        "momentum5": 430,
+        "ridge_01": 770,
+        "ridge_1": 364
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "flow5",
+      "utility_choice": "flow5"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-07",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 5,
+        "ridge_01": 16,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "flow5",
+      "utility_choice": "flow5"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-07",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 5,
+        "ridge_01": 15,
+        "ridge_1": 1
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "flow5",
+      "utility_choice": "flow5"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-07",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "flow5",
+      "utility_choice": "flow5"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-07",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "flow5",
+      "utility_choice": "flow5"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-07",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 296,
+        "momentum5": 69,
+        "ridge_01": 646,
+        "ridge_1": 105
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-07",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 11,
+        "flow5": 458,
+        "momentum5": 207,
+        "ridge_01": 652,
+        "ridge_1": 275
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-07",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 1,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-07",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-07",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-07",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-08",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 111,
+        "flow5": 424,
+        "momentum5": 151,
+        "ridge_01": 997,
+        "ridge_1": 290
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-08",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 96,
+        "flow5": 520,
+        "momentum5": 75,
+        "ridge_01": 949,
+        "ridge_1": 388
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-08",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 2,
+        "ridge_01": 2,
+        "ridge_1": 1
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-08",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 1,
+        "ridge_01": 4,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-08",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-08",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-08",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 160,
+        "flow5": 489,
+        "momentum5": 176,
+        "ridge_01": 1109,
+        "ridge_1": 425
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "flow5"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-08",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 126,
+        "flow5": 576,
+        "momentum5": 129,
+        "ridge_01": 1076,
+        "ridge_1": 489
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "flow5"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-08",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 9,
+        "ridge_01": 19,
+        "ridge_1": 4
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-08",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 7,
+        "ridge_01": 19,
+        "ridge_1": 2
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-08",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 1,
+        "ridge_01": 1,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "evaluation": "2026-08",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 1,
+        "ridge_01": 1,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-03",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1344,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 1,
+        "momentum5": 262,
+        "ridge_01": 759,
+        "ridge_1": 303
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "mean",
+      "utility_choice": "mean"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-03",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1344,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 5,
+        "momentum5": 250,
+        "ridge_01": 682,
+        "ridge_1": 333
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "mean",
+      "utility_choice": "mean"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-03",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1344,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 5,
+        "ridge_01": 51,
+        "ridge_1": 5
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "mean",
+      "utility_choice": "mean"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-03",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1344,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 5,
+        "ridge_01": 50,
+        "ridge_1": 5
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "mean",
+      "utility_choice": "mean"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-03",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1344,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 1,
+        "ridge_01": 1,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "mean",
+      "utility_choice": "mean"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-03",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1344,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 1,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "mean",
+      "utility_choice": "mean"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-03",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 1,
+        "momentum5": 125,
+        "ridge_01": 655,
+        "ridge_1": 159
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-03",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 5,
+        "momentum5": 129,
+        "ridge_01": 520,
+        "ridge_1": 181
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-03",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 2,
+        "ridge_01": 15,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-03",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 2,
+        "ridge_01": 16,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-03",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-03",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-04",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 1488,
+        "flow1": 1488,
+        "flow5": 1488,
+        "momentum5": 1488,
+        "ridge_01": 1302,
+        "ridge_1": 1461
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-04",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 1488,
+        "flow1": 1488,
+        "flow5": 1488,
+        "momentum5": 1488,
+        "ridge_01": 1368,
+        "ridge_1": 1479
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-04",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 18,
+        "ridge_01": 42,
+        "ridge_1": 8
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-04",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 18,
+        "ridge_01": 50,
+        "ridge_1": 13
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-04",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-04",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-04",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 1440,
+        "flow1": 1440,
+        "flow5": 1440,
+        "momentum5": 1440,
+        "ridge_01": 1272,
+        "ridge_1": 1418
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-04",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 1440,
+        "flow1": 1440,
+        "flow5": 1440,
+        "momentum5": 1440,
+        "ridge_01": 1330,
+        "ridge_1": 1434
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-04",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 5,
+        "ridge_01": 11,
+        "ridge_1": 4
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-04",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 4,
+        "ridge_01": 14,
+        "ridge_1": 4
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-04",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-04",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-05",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 48,
+        "flow5": 164,
+        "momentum5": 51,
+        "ridge_01": 349,
+        "ridge_1": 63
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-05",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 30,
+        "momentum5": 64,
+        "ridge_01": 172,
+        "ridge_1": 13
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-05",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-05",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-05",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-05",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-05",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 40,
+        "flow5": 155,
+        "momentum5": 65,
+        "ridge_01": 340,
+        "ridge_1": 67
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "momentum5",
+      "utility_choice": "momentum5"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-05",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 41,
+        "momentum5": 85,
+        "ridge_01": 209,
+        "ridge_1": 28
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "momentum5",
+      "utility_choice": "momentum5"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-05",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 1,
+        "ridge_01": 2,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "momentum5",
+      "utility_choice": "momentum5"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-05",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 1,
+        "ridge_01": 3,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "momentum5",
+      "utility_choice": "momentum5"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-05",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "momentum5",
+      "utility_choice": "momentum5"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-05",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "momentum5",
+      "utility_choice": "momentum5"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-06",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 1,
+        "flow5": 163,
+        "momentum5": 167,
+        "ridge_01": 390,
+        "ridge_1": 77
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "flow1",
+      "utility_choice": "flow1"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-06",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 65,
+        "flow5": 89,
+        "momentum5": 128,
+        "ridge_01": 336,
+        "ridge_1": 63
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "flow1",
+      "utility_choice": "flow1"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-06",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 2,
+        "ridge_01": 2,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "flow1",
+      "utility_choice": "flow1"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-06",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 2,
+        "ridge_01": 2,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "flow1",
+      "utility_choice": "flow1"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-06",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "flow1",
+      "utility_choice": "flow1"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-06",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "flow1",
+      "utility_choice": "flow1"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-06",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 163,
+        "momentum5": 296,
+        "ridge_01": 510,
+        "ridge_1": 146
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "momentum5",
+      "utility_choice": "ridge_1"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-06",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 63,
+        "flow5": 96,
+        "momentum5": 262,
+        "ridge_01": 470,
+        "ridge_1": 136
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "momentum5",
+      "utility_choice": "ridge_1"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-06",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 11,
+        "ridge_01": 4,
+        "ridge_1": 1
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "momentum5",
+      "utility_choice": "ridge_1"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-06",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 9,
+        "ridge_01": 4,
+        "ridge_1": 1
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "momentum5",
+      "utility_choice": "momentum5"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-06",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "momentum5",
+      "utility_choice": "momentum5"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-06",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "momentum5",
+      "utility_choice": "momentum5"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-07",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 29,
+        "flow5": 0,
+        "momentum5": 128,
+        "ridge_01": 614,
+        "ridge_1": 110
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-07",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 85,
+        "flow5": 0,
+        "momentum5": 91,
+        "ridge_01": 498,
+        "ridge_1": 48
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-07",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 2,
+        "ridge_01": 12,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-07",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 2,
+        "ridge_01": 10,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-07",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-07",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-07",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 43,
+        "flow5": 0,
+        "momentum5": 21,
+        "ridge_01": 416,
+        "ridge_1": 25
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "mean",
+      "utility_choice": "mean"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-07",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 121,
+        "flow5": 0,
+        "momentum5": 18,
+        "ridge_01": 392,
+        "ridge_1": 5
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "mean",
+      "utility_choice": "mean"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-07",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 1,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "mean",
+      "utility_choice": "mean"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-07",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "mean",
+      "utility_choice": "mean"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-07",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "mean",
+      "utility_choice": "mean"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-07",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "mean",
+      "utility_choice": "mean"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-08",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 225,
+        "flow5": 518,
+        "momentum5": 95,
+        "ridge_01": 749,
+        "ridge_1": 407
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-08",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 494,
+        "flow5": 625,
+        "momentum5": 141,
+        "ridge_01": 910,
+        "ridge_1": 629
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-08",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 1,
+        "ridge_01": 1,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-08",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 1,
+        "ridge_01": 1,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-08",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-08",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-08",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 165,
+        "flow5": 400,
+        "momentum5": 128,
+        "ridge_01": 662,
+        "ridge_1": 288
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-08",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 375,
+        "flow5": 522,
+        "momentum5": 173,
+        "ridge_01": 805,
+        "ridge_1": 493
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-08",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 2,
+        "ridge_01": 2,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-08",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 2,
+        "ridge_01": 2,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-08",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "evaluation": "2026-08",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-03",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1344,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 109,
+        "flow5": 13,
+        "momentum5": 224,
+        "ridge_01": 989,
+        "ridge_1": 549
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-03",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1344,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 106,
+        "flow5": 42,
+        "momentum5": 219,
+        "ridge_01": 1008,
+        "ridge_1": 633
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-03",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1344,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 6,
+        "ridge_01": 94,
+        "ridge_1": 14
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-03",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1344,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 6,
+        "ridge_01": 106,
+        "ridge_1": 18
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-03",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1344,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 7,
+        "ridge_1": 1
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-03",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1344,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 9,
+        "ridge_1": 1
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-03",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 249,
+        "flow5": 34,
+        "momentum5": 87,
+        "ridge_01": 938,
+        "ridge_1": 337
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-03",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 229,
+        "flow5": 96,
+        "momentum5": 98,
+        "ridge_01": 978,
+        "ridge_1": 412
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-03",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 2,
+        "ridge_01": 22,
+        "ridge_1": 2
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-03",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 2,
+        "ridge_01": 26,
+        "ridge_1": 3
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-03",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-03",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-04",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 1488,
+        "flow1": 1217,
+        "flow5": 1488,
+        "momentum5": 1488,
+        "ridge_01": 1410,
+        "ridge_1": 1345
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-04",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 1488,
+        "flow1": 1231,
+        "flow5": 1488,
+        "momentum5": 1488,
+        "ridge_01": 1427,
+        "ridge_1": 1415
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-04",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 400,
+        "flow5": 214,
+        "momentum5": 21,
+        "ridge_01": 333,
+        "ridge_1": 159
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-04",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 444,
+        "flow5": 259,
+        "momentum5": 24,
+        "ridge_01": 365,
+        "ridge_1": 207
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-04",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 1,
+        "ridge_01": 3,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-04",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 1,
+        "ridge_01": 3,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-04",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 1440,
+        "flow1": 1161,
+        "flow5": 1440,
+        "momentum5": 1440,
+        "ridge_01": 1336,
+        "ridge_1": 1246
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-04",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 1440,
+        "flow1": 1125,
+        "flow5": 1440,
+        "momentum5": 1440,
+        "ridge_01": 1358,
+        "ridge_1": 1306
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-04",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 412,
+        "flow5": 263,
+        "momentum5": 9,
+        "ridge_01": 273,
+        "ridge_1": 152
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-04",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 437,
+        "flow5": 299,
+        "momentum5": 12,
+        "ridge_01": 296,
+        "ridge_1": 184
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-04",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-04",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-05",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 235,
+        "flow5": 64,
+        "momentum5": 89,
+        "ridge_01": 591,
+        "ridge_1": 163
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "mean",
+      "utility_choice": "mean"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-05",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 11,
+        "flow5": 40,
+        "momentum5": 123,
+        "ridge_01": 430,
+        "ridge_1": 43
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "mean",
+      "utility_choice": "mean"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-05",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 3,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "mean",
+      "utility_choice": "mean"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-05",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 1,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "mean",
+      "utility_choice": "mean"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-05",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "mean",
+      "utility_choice": "mean"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-05",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "mean",
+      "utility_choice": "mean"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-05",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 249,
+        "flow5": 57,
+        "momentum5": 87,
+        "ridge_01": 616,
+        "ridge_1": 143
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-05",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 7,
+        "flow5": 21,
+        "momentum5": 114,
+        "ridge_01": 461,
+        "ridge_1": 43
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-05",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 2,
+        "ridge_01": 3,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-05",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 2,
+        "ridge_01": 2,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-05",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-05",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-06",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 349,
+        "ridge_01": 469,
+        "ridge_1": 95
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-06",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 180,
+        "ridge_01": 255,
+        "ridge_1": 44
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-06",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 5,
+        "ridge_01": 6,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-06",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 2,
+        "ridge_01": 3,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-06",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-06",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-06",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 526,
+        "ridge_01": 624,
+        "ridge_1": 219
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-06",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 384,
+        "ridge_01": 470,
+        "ridge_1": 156
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-06",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 21,
+        "ridge_01": 28,
+        "ridge_1": 1
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-06",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 15,
+        "ridge_01": 25,
+        "ridge_1": 1
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-06",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-06",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-07",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 176,
+        "ridge_01": 490,
+        "ridge_1": 184
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "flow1",
+      "utility_choice": "flow1"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-07",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 1,
+        "momentum5": 248,
+        "ridge_01": 421,
+        "ridge_1": 72
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "flow1",
+      "utility_choice": "flow1"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-07",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 2,
+        "ridge_01": 8,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "flow1",
+      "utility_choice": "flow1"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-07",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 2,
+        "ridge_01": 4,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "flow1",
+      "utility_choice": "flow1"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-07",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "flow1",
+      "utility_choice": "flow1"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-07",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1440,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "flow1",
+      "utility_choice": "flow1"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-07",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 47,
+        "ridge_01": 290,
+        "ridge_1": 50
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-07",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 4,
+        "momentum5": 86,
+        "ridge_01": 305,
+        "ridge_1": 13
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-07",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 1,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-07",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 1,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-07",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-07",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-08",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 393,
+        "flow5": 0,
+        "momentum5": 79,
+        "ridge_01": 572,
+        "ridge_1": 52
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-08",
+      "stage": "calibration",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 335,
+        "flow5": 0,
+        "momentum5": 57,
+        "ridge_01": 743,
+        "ridge_1": 121
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-08",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 1,
+        "ridge_01": 2,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-08",
+      "stage": "calibration",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 1,
+        "ridge_01": 1,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-08",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-08",
+      "stage": "calibration",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 0,
+        "ridge_01": 0,
+        "ridge_1": 0
+      },
+      "all_candidates_equality_feasible": true,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-08",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 377,
+        "flow5": 0,
+        "momentum5": 202,
+        "ridge_01": 708,
+        "ridge_1": 192
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-08",
+      "stage": "evaluation",
+      "eta": 0.5,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 333,
+        "flow5": 0,
+        "momentum5": 171,
+        "ridge_01": 855,
+        "ridge_1": 235
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-08",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 17,
+        "ridge_01": 37,
+        "ridge_1": 9
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-08",
+      "stage": "evaluation",
+      "eta": 2.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 12,
+        "ridge_01": 29,
+        "ridge_1": 6
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-08",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 0,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 2,
+        "ridge_01": 4,
+        "ridge_1": 1
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "evaluation": "2026-08",
+      "stage": "evaluation",
+      "eta": 5.0,
+      "risk": 1,
+      "episodes_per_candidate": 1488,
+      "candidate_equality_infeasible_counts": {
+        "zero": 0,
+        "mean": 0,
+        "flow1": 0,
+        "flow5": 0,
+        "momentum5": 2,
+        "ridge_01": 3,
+        "ridge_1": 1
+      },
+      "all_candidates_equality_feasible": false,
+      "weighted_error_choice": "zero",
+      "utility_choice": "zero"
+    }
+  ]
+}

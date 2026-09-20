@@ -1,21 +1,20 @@
 # Crypto execution timing
 
-**Return forecasts and execution timing: A matched-endpoint study of cryptocurrency orders** — Lai Jien Weng, Monash University.
+**Choosing price forecasts for cryptocurrency sales** — Lai Jien Weng, Monash University.
 
-[Full manuscript source](manuscript/full/main.tex) · [40-paper bibliography](manuscript/full/references.bib) · [Figures](manuscript/full/figures) · [Data provenance](data/README.md)
+[Latest manuscript source](submission/forecast-selection-study/source/main.tex) · [Supporting appendices](submission/forecast-selection-study/source/appendices.tex) · [Experiment report](revisions/2026-09-20-selection/REPORT.md) · [Earlier full paper](manuscript/full/main.tex)
 
 ## Reproduce
 
-Python 3.11+; run from the repository root:
+Python 3.11+, from the repository root:
 
 ```bash
 python3 -m pip install -r requirements.txt
-python3 -m unittest discover -p 'test*.py'
-python3 -m unittest discover -s revisions/2026-09-19 -p 'test*.py'
-python3 revisions/2026-09-19/revision_study.py
-python3 scripts/build_full_assets.py
+OPENBLAS_NUM_THREADS=1 python3 -m unittest discover -s revisions/2026-09-20-selection -p 'test*.py'
+OPENBLAS_NUM_THREADS=1 python3 revisions/2026-09-20-selection/reproduce.py
+python3 revisions/2026-09-20-selection/build_assets.py
 ```
 
-Includes 16 Binance BTC/ETH minute-bar archives, checksums and results for 17,664 hypothetical orders. The study is retrospective; costs are assumed and gains are not observed trading profits. Reruns overwrite generated results: use a clean checkout. Manuscript sources and PNG/SVG figures are provided; PDFs are excluded. Venue selection is pending.
+Forty archived Binance minute-bar files and checksums are included for BTC, ETH, SOL, BNB and XRP, January–August 2026. [Data provenance](data/README.md). The frozen experiment evaluates 44,160 hypothetical orders. Economic selection loses less than final-price selection on the transfer assets, but matches the simpler demeaned-path selector and loses against the no-signal baseline. Costs are assumed; the historical test does not establish real trading savings.
 
-Contact: lai.jienweng@monash.edu
+PDFs remain local. Nothing has been submitted. Contact: lai.jienweng@monash.edu

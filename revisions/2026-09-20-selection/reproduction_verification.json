@@ -1,0 +1,7 @@
+{
+  "status": "exact_match",
+  "study_equal_excluding_completed_utc": true,
+  "fits_byte_equal": true,
+  "daily_and_episode_csv_uncompressed_byte_equal": true,
+  "original_results_overwritten": false
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "cohort": "transfer",
+    "contrast": "economic_minus_endpoint",
+    "eta": 2,
+    "risk": 1,
+    "score": "monetary",
+    "mean": 0.014286903828957307,
+    "ci95": [
+      0.0012880752495721987,
+      0.030434408808933285
+    ]
+  },
+  {
+    "cohort": "transfer",
+    "contrast": "economic_minus_path",
+    "eta": 2,
+    "risk": 1,
+    "score": "monetary",
+    "mean": 0.010531428286367595,
+    "ci95": [
+      -0.0008477941862574075,
+      0.025873519651532142
+    ]
+  },
+  {
+    "cohort": "transfer",
+    "contrast": "economic_minus_contrasts",
+    "eta": 2,
+    "risk": 1,
+    "score": "monetary",
+    "mean": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "cohort": "transfer",
+    "contrast": "economic_minus_zero",
+    "eta": 2,
+    "risk": 1,
+    "score": "monetary",
+    "mean": -0.004951165250915192,
+    "ci95": [
+      -0.008313288091777789,
+      -0.0019267470748695699
+    ]
+  },
+  {
+    "cohort": "development",
+    "contrast": "economic_minus_endpoint",
+    "eta": 2,
+    "risk": 1,
+    "score": "monetary",
+    "mean": -0.000488601747524216,
+    "ci95": [
+      -0.00640356104512256,
+      0.0036698758811105152
+    ]
+  },
+  {
+    "cohort": "development",
+    "contrast": "economic_minus_path",
+    "eta": 2,
+    "risk": 1,
+    "score": "monetary",
+    "mean": -0.00020312762580464733,
+    "ci95": [
+      -0.006229011271561306,
+      0.004117058922399404
+    ]
+  },
+  {
+    "cohort": "development",
+    "contrast": "economic_minus_contrasts",
+    "eta": 2,
+    "risk": 1,
+    "score": "monetary",
+    "mean": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "cohort": "development",
+    "contrast": "economic_minus_zero",
+    "eta": 2,
+    "risk": 1,
+    "score": "monetary",
+    "mean": -0.004191267613505114,
+    "ci95": [
+      -0.012645300412075804,
+      0.0016759027398716149
+    ]
+  }
+]

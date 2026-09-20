@@ -1,0 +1,8 @@
+{
+  "started_utc": "2026-09-20T15:09:26.922882+00:00",
+  "protocol_sha256": "09d16ccd4be27940b500970b42bbbecab9926e5952baaa04e3aeee70036a0d23",
+  "code_sha256": "f9ba9581a16dfdd61a05504faeb37abaed3a195df3b3b84b3210591a65bc7894",
+  "validator_sha256": "62e90c733e8136c886b4944196a9bd7e8c8517565608988256a2c0377aafd000",
+  "seed": 20260920,
+  "bootstrap": "4000 circular moving block draws, seven calendar days, paired assets; policies fixed"
+}
