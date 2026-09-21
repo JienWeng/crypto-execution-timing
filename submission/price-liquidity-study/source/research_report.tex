@@ -94,6 +94,8 @@ The contribution is now specific enough to test: quantify the attainable value o
 
 A larger study needs a substantially longer order-book history, multiple market conditions, stronger validation of execution assumptions and a fresh frozen evaluation period. The closest open historical candidate is the CC0 multi-exchange Bitcoin dataset associated with Hautsch, Scheuch and Voigt \cite{dryad}; its download currently requires access not available in this session. An accessible vendor sample was kept out of the research package because its redistribution and model-use terms conflict with a fully open release. No paid subscription or exchange order was placed.
 
+We also validated an open December 2025 Hyperliquid SOL order-event archive before using it. Accepted-order lifecycle records alone do not reconstruct visible depth: a direct reconstruction produces crossed books even after excluding conditional and non-resting orders. The dataset's separate 49.6 GB visible-book-diff stream lacks timestamps and requires a verified event join. No Hyperliquid policy outcome was computed. This failed data gate prevents a convenient but invalid expansion of the sample.
+
 The present code and data provide a reproducible development platform. Thirteen targeted tests cover allocation, depth accounting, caps, future-data isolation and training boundaries. An isolated rerun verifies the original episode records, fits and forecast-error outputs. Future experiments must be recorded separately; these five dates cannot be reused as untouched confirmation after model changes.
 
 \begin{thebibliography}{9}\small

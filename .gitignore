@@ -14,3 +14,6 @@ manuscript/revised/*.pdf
 # Raw order-book archives are downloaded with pinned checksums.
 data/orderbook/**/*.download
 data/orderbook/**/*.part
+
+# Large local Hyperliquid validation archives.
+data/orderbook/hyperliquid/
