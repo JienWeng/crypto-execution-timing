@@ -1,0 +1,130 @@
+{
+  "dataset": "martinsn/high-frequency-crypto-limit-order-book-data",
+  "creator": "Martin S\u00f8gaard Nielsen",
+  "license": "CC0: Public Domain (Kaggle API metadata)",
+  "metadata_api": "https://www.kaggle.com/api/v1/datasets/view/martinsn/high-frequency-crypto-limit-order-book-data",
+  "files": [
+    {
+      "url": "https://www.kaggle.com/api/v1/datasets/download/martinsn/high-frequency-crypto-limit-order-book-data/BTC_1sec.csv",
+      "path": "data/orderbook/open_pilots/martinsn_BTC_1sec.csv.download",
+      "bytes": 332328327,
+      "sha256": "b2338f3521335a891097d9a9e3611aa85e0f355afa12548a6ebbf8a138a75a61",
+      "reused": true
+    },
+    {
+      "url": "https://www.kaggle.com/api/v1/datasets/download/martinsn/high-frequency-crypto-limit-order-book-data/ETH_1sec.csv",
+      "path": "data/orderbook/open_pilots/martinsn_ETH_1sec.csv.download",
+      "bytes": 382488871,
+      "sha256": "fbc15b918a4bc913c9f2d143c0188235a7eec79ad2a164bb873c5bcbaa7f2634",
+      "reused": true
+    },
+    {
+      "url": "https://www.kaggle.com/api/v1/datasets/download/martinsn/high-frequency-crypto-limit-order-book-data/ADA_1sec.csv",
+      "path": "data/orderbook/open_pilots/martinsn_ADA_1sec.csv.download",
+      "bytes": 290410697,
+      "sha256": "27a6d48e53aa6180fada3b25ff54d6437d4ba4b926690ed78a386bc6a7f03273",
+      "reused": true
+    }
+  ],
+  "source_formula": {
+    "commit": "b02a573fdbc8d81779d3e8edff3c5f5ec3623785",
+    "url": "https://raw.githubusercontent.com/sadighian/crypto-rl/b02a573fdbc8d81779d3e8edff3c5f5ec3623785/data_recorder/connector_components/book.py",
+    "selection": "latest commit touching book.py before 2021-04-07; dataset actual version not pinned"
+  },
+  "restriction": "Only CC0 assets here; do not publish Tardis or rfab85 samples with these data.",
+  "extraction": {
+    "BTC": {
+      "symbol": "BTC",
+      "source": "data/orderbook/open_pilots/martinsn_BTC_1sec.csv.download",
+      "sha256": "b2338f3521335a891097d9a9e3611aa85e0f355afa12548a6ebbf8a138a75a61",
+      "compressed_bytes": 332328327,
+      "raw_rows": 1030728,
+      "sampled_minutes": 17156,
+      "stale_minutes": 2,
+      "invalid_books": 24,
+      "first_boundary_utc": "2021-04-07T11:33:00+00:00",
+      "last_boundary_utc": "2021-04-19T09:54:00+00:00",
+      "max_raw_gap_seconds": 30.000617,
+      "max_age_seconds": 3.986264,
+      "timestamp_semantics": "source_timestamp_us is dataset system_time with explicit +00:00 offset; independent receipt and exchange times unavailable",
+      "outcomes_evaluated": false,
+      "daily_counts": {
+        "2021-04-07": 745,
+        "2021-04-08": 1438,
+        "2021-04-09": 1438,
+        "2021-04-10": 1440,
+        "2021-04-11": 1440,
+        "2021-04-12": 1440,
+        "2021-04-13": 1440,
+        "2021-04-14": 1435,
+        "2021-04-15": 1439,
+        "2021-04-16": 1438,
+        "2021-04-17": 1440,
+        "2021-04-18": 1429,
+        "2021-04-19": 594
+      }
+    },
+    "ETH": {
+      "symbol": "ETH",
+      "source": "data/orderbook/open_pilots/martinsn_ETH_1sec.csv.download",
+      "sha256": "fbc15b918a4bc913c9f2d143c0188235a7eec79ad2a164bb873c5bcbaa7f2634",
+      "compressed_bytes": 382488871,
+      "raw_rows": 1030775,
+      "sampled_minutes": 17161,
+      "stale_minutes": 0,
+      "invalid_books": 20,
+      "first_boundary_utc": "2021-04-07T11:33:00+00:00",
+      "last_boundary_utc": "2021-04-19T09:53:00+00:00",
+      "max_raw_gap_seconds": 12.624178,
+      "max_age_seconds": 2.576239,
+      "timestamp_semantics": "source_timestamp_us is dataset system_time with explicit +00:00 offset; independent receipt and exchange times unavailable",
+      "outcomes_evaluated": false,
+      "daily_counts": {
+        "2021-04-07": 745,
+        "2021-04-08": 1440,
+        "2021-04-09": 1439,
+        "2021-04-10": 1438,
+        "2021-04-11": 1440,
+        "2021-04-12": 1440,
+        "2021-04-13": 1438,
+        "2021-04-14": 1437,
+        "2021-04-15": 1439,
+        "2021-04-16": 1438,
+        "2021-04-17": 1440,
+        "2021-04-18": 1433,
+        "2021-04-19": 594
+      }
+    },
+    "ADA": {
+      "symbol": "ADA",
+      "source": "data/orderbook/open_pilots/martinsn_ADA_1sec.csv.download",
+      "sha256": "27a6d48e53aa6180fada3b25ff54d6437d4ba4b926690ed78a386bc6a7f03273",
+      "compressed_bytes": 290410697,
+      "raw_rows": 1030533,
+      "sampled_minutes": 17164,
+      "stale_minutes": 0,
+      "invalid_books": 12,
+      "first_boundary_utc": "2021-04-07T11:34:00+00:00",
+      "last_boundary_utc": "2021-04-19T09:49:00+00:00",
+      "max_raw_gap_seconds": 3.061901,
+      "max_age_seconds": 1.008321,
+      "timestamp_semantics": "source_timestamp_us is dataset system_time with explicit +00:00 offset; independent receipt and exchange times unavailable",
+      "outcomes_evaluated": false,
+      "daily_counts": {
+        "2021-04-07": 745,
+        "2021-04-08": 1438,
+        "2021-04-09": 1440,
+        "2021-04-10": 1440,
+        "2021-04-11": 1440,
+        "2021-04-12": 1439,
+        "2021-04-13": 1440,
+        "2021-04-14": 1437,
+        "2021-04-15": 1439,
+        "2021-04-16": 1438,
+        "2021-04-17": 1440,
+        "2021-04-18": 1438,
+        "2021-04-19": 590
+      }
+    }
+  }
+}

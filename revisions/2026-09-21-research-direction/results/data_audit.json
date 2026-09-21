@@ -1,0 +1,20 @@
+{
+  "BTC": {
+    "training_rows": 8541,
+    "evaluation_orders": 225,
+    "potential_orders": 240,
+    "sizes": {}
+  },
+  "ETH": {
+    "training_rows": 8520,
+    "evaluation_orders": 232,
+    "potential_orders": 240,
+    "sizes": {}
+  },
+  "ADA": {
+    "training_rows": 8562,
+    "evaluation_orders": 234,
+    "potential_orders": 240,
+    "sizes": {}
+  }
+}

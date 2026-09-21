@@ -1,0 +1,14 @@
+{
+  "asset": "BTC",
+  "exact_array_matches": {
+    "boundary_us": true,
+    "midpoint": true,
+    "spread": true,
+    "bids_price": true,
+    "bids_amount": true,
+    "asks_price": true,
+    "asks_amount": true,
+    "source_timestamp_us": true
+  },
+  "source_archive_checksum_verified": true
+}

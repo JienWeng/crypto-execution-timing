@@ -1,0 +1,16 @@
+{
+  "symbol": "ETH",
+  "source": "data/orderbook/open_pilots/martinsn_ETH_1sec.csv.download",
+  "sha256": "fbc15b918a4bc913c9f2d143c0188235a7eec79ad2a164bb873c5bcbaa7f2634",
+  "compressed_bytes": 382488871,
+  "raw_rows": 1030775,
+  "sampled_minutes": 17161,
+  "stale_minutes": 0,
+  "invalid_books": 20,
+  "first_boundary_utc": "2021-04-07T11:33:00+00:00",
+  "last_boundary_utc": "2021-04-19T09:53:00+00:00",
+  "max_raw_gap_seconds": 12.624178,
+  "max_age_seconds": 2.576239,
+  "timestamp_semantics": "source_timestamp_us is dataset system_time with explicit +00:00 offset; independent receipt and exchange times unavailable",
+  "outcomes_evaluated": false
+}

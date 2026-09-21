@@ -1,0 +1,16 @@
+{
+  "symbol": "BTC",
+  "source": "data/orderbook/open_pilots/martinsn_BTC_1sec.csv.download",
+  "sha256": "b2338f3521335a891097d9a9e3611aa85e0f355afa12548a6ebbf8a138a75a61",
+  "compressed_bytes": 332328327,
+  "raw_rows": 1030728,
+  "sampled_minutes": 17156,
+  "stale_minutes": 2,
+  "invalid_books": 24,
+  "first_boundary_utc": "2021-04-07T11:33:00+00:00",
+  "last_boundary_utc": "2021-04-19T09:54:00+00:00",
+  "max_raw_gap_seconds": 30.000617,
+  "max_age_seconds": 3.986264,
+  "timestamp_semantics": "source_timestamp_us is dataset system_time with explicit +00:00 offset; independent receipt and exchange times unavailable",
+  "outcomes_evaluated": false
+}

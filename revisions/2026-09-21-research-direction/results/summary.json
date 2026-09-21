@@ -1,0 +1,709 @@
+{
+  "status": "five-date development pilot; descriptive, not confirmatory",
+  "panels": {
+    "1": {
+      "arrivals": 691,
+      "common_complete_arrivals_all_sizes_arms": 685,
+      "counts": {
+        "reference": {
+          "orders": 2073,
+          "incomplete": 2,
+          "fallbacks": 0.0
+        },
+        "price": {
+          "orders": 2073,
+          "incomplete": 6,
+          "fallbacks": 0.0
+        },
+        "liquidity": {
+          "orders": 2073,
+          "incomplete": 0,
+          "fallbacks": 0.0
+        },
+        "both": {
+          "orders": 2073,
+          "incomplete": 5,
+          "fallbacks": 0.0
+        },
+        "twap": {
+          "orders": 2073,
+          "incomplete": 0,
+          "fallbacks": 0.0
+        }
+      },
+      "sizes": {
+        "0.01": {
+          "savings_bps": {
+            "reference": 0.0,
+            "price": -3.12656635939428,
+            "liquidity": -1.5252822512818376,
+            "both": -3.8396097644744343,
+            "twap": -2.635646878351659
+          },
+          "daily_savings": {
+            "2021-04-14": {
+              "reference": 0.0,
+              "price": -3.9632007330618677,
+              "liquidity": -5.262376399988384,
+              "both": -4.248213608025172,
+              "twap": -5.393476013166063
+            },
+            "2021-04-15": {
+              "reference": 0.0,
+              "price": 1.9369022079159992,
+              "liquidity": 2.2446418835986,
+              "both": 1.9414132950855134,
+              "twap": 0.6162052536971584
+            },
+            "2021-04-16": {
+              "reference": 0.0,
+              "price": -4.034096472226704,
+              "liquidity": -2.530334833283091,
+              "both": -3.9311451944773097,
+              "twap": -3.2483713038484154
+            },
+            "2021-04-17": {
+              "reference": 0.0,
+              "price": 1.6050259189858413,
+              "liquidity": 3.5287279448080855,
+              "both": 1.6336458219126904,
+              "twap": 2.1138795308843004
+            },
+            "2021-04-18": {
+              "reference": 0.0,
+              "price": -11.17746271858467,
+              "liquidity": -5.607069851544399,
+              "both": -14.593749136867892,
+              "twap": -7.266471859325274
+            }
+          },
+          "asset_savings": {
+            "BTC": {
+              "reference": 0.0,
+              "price": -2.2911169776681053,
+              "liquidity": -0.3985870053978796,
+              "both": -2.3283330872838,
+              "twap": -0.6455230288927902
+            },
+            "ETH": {
+              "reference": 0.0,
+              "price": -1.4696145399514544,
+              "liquidity": -0.362799005895261,
+              "both": -1.530456757029555,
+              "twap": -2.162721974879479
+            },
+            "ADA": {
+              "reference": 0.0,
+              "price": -5.61896756056328,
+              "liquidity": -3.8144607425523724,
+              "both": -7.660039449109948,
+              "twap": -5.098695631282707
+            }
+          },
+          "liquidity_minus_price_bps": 1.6012841081124425,
+          "interaction_bps": 0.8122388462016834,
+          "components_bps": {
+            "reference": {
+              "timing_shortfall_dollars": 0.0,
+              "spread_dollars": 0.0,
+              "depth_dollars": 0.0
+            },
+            "price": {
+              "timing_shortfall_dollars": -3.1855253263466947,
+              "spread_dollars": 0.06345163477053997,
+              "depth_dollars": -0.0044926678181289245
+            },
+            "liquidity": {
+              "timing_shortfall_dollars": -1.6148670770152485,
+              "spread_dollars": 0.07579479429645682,
+              "depth_dollars": 0.013790031436911867
+            },
+            "both": {
+              "timing_shortfall_dollars": -3.902085471929208,
+              "spread_dollars": 0.0683915985073999,
+              "depth_dollars": -0.005915891052653702
+            },
+            "twap": {
+              "timing_shortfall_dollars": -2.7089761962318732,
+              "spread_dollars": 0.022424314544102025,
+              "depth_dollars": 0.05090500333589106
+            }
+          }
+        },
+        "0.05": {
+          "savings_bps": {
+            "reference": 0.0,
+            "price": -3.245107936733219,
+            "liquidity": -1.8606150363470877,
+            "both": -3.7953285247004565,
+            "twap": -2.5630527991723744
+          },
+          "daily_savings": {
+            "2021-04-14": {
+              "reference": 0.0,
+              "price": -3.6945523455150195,
+              "liquidity": -5.371667231338645,
+              "both": -3.9185057287310303,
+              "twap": -4.938422963210368
+            },
+            "2021-04-15": {
+              "reference": 0.0,
+              "price": 2.064166631746805,
+              "liquidity": 1.923934305360257,
+              "both": 1.9939607307375755,
+              "twap": 0.6901867555283864
+            },
+            "2021-04-16": {
+              "reference": 0.0,
+              "price": -4.053868469538396,
+              "liquidity": -3.2527060584420866,
+              "both": -3.978230462873055,
+              "twap": -3.059735241670231
+            },
+            "2021-04-17": {
+              "reference": 0.0,
+              "price": 1.1821193313922318,
+              "liquidity": 3.1935319893987995,
+              "both": 1.1866715775822696,
+              "twap": 1.8993072240143443
+            },
+            "2021-04-18": {
+              "reference": 0.0,
+              "price": -11.723404831751717,
+              "liquidity": -5.796168186713764,
+              "both": -14.260538740218044,
+              "twap": -7.406599770524004
+            }
+          },
+          "asset_savings": {
+            "BTC": {
+              "reference": 0.0,
+              "price": -2.7374811224753235,
+              "liquidity": -1.0488132727017172,
+              "both": -2.8940333563847123,
+              "twap": -1.214505983317522
+            },
+            "ETH": {
+              "reference": 0.0,
+              "price": -1.4303643039786338,
+              "liquidity": -1.11319943791804,
+              "both": -1.3666582331571198,
+              "twap": -1.8705977221204784
+            },
+            "ADA": {
+              "reference": 0.0,
+              "price": -5.567478383745701,
+              "liquidity": -3.419832398421506,
+              "both": -7.125293984559538,
+              "twap": -4.6040546920791225
+            }
+          },
+          "liquidity_minus_price_bps": 1.3844929003861313,
+          "interaction_bps": 1.3103944483798502,
+          "components_bps": {
+            "reference": {
+              "timing_shortfall_dollars": 0.0,
+              "spread_dollars": 0.0,
+              "depth_dollars": 0.0
+            },
+            "price": {
+              "timing_shortfall_dollars": -3.2671525617958226,
+              "spread_dollars": 0.03738505461716222,
+              "depth_dollars": -0.015340429554579973
+            },
+            "liquidity": {
+              "timing_shortfall_dollars": -1.9501410218822044,
+              "spread_dollars": 0.06014140002327305,
+              "depth_dollars": 0.02938458551176946
+            },
+            "both": {
+              "timing_shortfall_dollars": -3.8251201781078508,
+              "spread_dollars": 0.04605951580494233,
+              "depth_dollars": -0.01626786239758052
+            },
+            "twap": {
+              "timing_shortfall_dollars": -2.6985370997406584,
+              "spread_dollars": 0.007751743118864463,
+              "depth_dollars": 0.12773255744916073
+            }
+          }
+        },
+        "0.2": {
+          "savings_bps": {
+            "reference": 0.0,
+            "price": -1.3290445279465004,
+            "liquidity": -0.19552033937919858,
+            "both": -1.7821213642034173,
+            "twap": -0.8428321493879825
+          },
+          "daily_savings": {
+            "2021-04-14": {
+              "reference": 0.0,
+              "price": -2.0927420468577704,
+              "liquidity": -3.454922194204863,
+              "both": -2.221754456741513,
+              "twap": -3.0204122215419336
+            },
+            "2021-04-15": {
+              "reference": 0.0,
+              "price": 2.6479105377894094,
+              "liquidity": 3.439904902179664,
+              "both": 2.655329360942584,
+              "twap": 1.342251282818301
+            },
+            "2021-04-16": {
+              "reference": 0.0,
+              "price": -2.943274755848273,
+              "liquidity": -1.2155282055602905,
+              "both": -2.98813461193647,
+              "twap": -1.9194412512091763
+            },
+            "2021-04-17": {
+              "reference": 0.0,
+              "price": 0.9508229282053309,
+              "liquidity": 2.545701349265814,
+              "both": 0.9332313227466148,
+              "twap": 1.1166229895379856
+            },
+            "2021-04-18": {
+              "reference": 0.0,
+              "price": -5.207939303021199,
+              "liquidity": -2.292757548576317,
+              "both": -7.289278436028302,
+              "twap": -1.7331815465450895
+            }
+          },
+          "asset_savings": {
+            "BTC": {
+              "reference": 0.0,
+              "price": -1.7299654934664968,
+              "liquidity": 0.15364576044597006,
+              "both": -1.9690783965520353,
+              "twap": -0.34533321090829033
+            },
+            "ETH": {
+              "reference": 0.0,
+              "price": -0.08781756600529315,
+              "liquidity": -0.0010550514028633273,
+              "both": -0.06783991992587461,
+              "twap": -0.8091767730446628
+            },
+            "ADA": {
+              "reference": 0.0,
+              "price": -2.1693505243677107,
+              "liquidity": -0.7391517271807021,
+              "both": -3.3094457761323426,
+              "twap": -1.3739864642109947
+            }
+          },
+          "liquidity_minus_price_bps": 1.1335241885673017,
+          "interaction_bps": -0.2575564968777183,
+          "components_bps": {
+            "reference": {
+              "timing_shortfall_dollars": 0.0,
+              "spread_dollars": 0.0,
+              "depth_dollars": 0.0
+            },
+            "price": {
+              "timing_shortfall_dollars": -1.2221736421656437,
+              "spread_dollars": 0.005468311025347138,
+              "depth_dollars": -0.11233919680602736
+            },
+            "liquidity": {
+              "timing_shortfall_dollars": -0.2384049052682021,
+              "spread_dollars": -0.0030959919798911606,
+              "depth_dollars": 0.04598055786893463
+            },
+            "both": {
+              "timing_shortfall_dollars": -1.7059851424655428,
+              "spread_dollars": 0.035229758402296314,
+              "depth_dollars": -0.11136598014006782
+            },
+            "twap": {
+              "timing_shortfall_dollars": -1.09106806423059,
+              "spread_dollars": -0.015592078840861084,
+              "depth_dollars": 0.26382799368344323
+            }
+          }
+        }
+      },
+      "size_contrast_bps": -0.46775991954514073,
+      "completion_by_size_arm": {
+        "0.01": {
+          "reference": 1.0,
+          "price": 1.0,
+          "liquidity": 1.0,
+          "both": 1.0,
+          "twap": 1.0
+        },
+        "0.05": {
+          "reference": 1.0,
+          "price": 1.0,
+          "liquidity": 1.0,
+          "both": 1.0,
+          "twap": 1.0
+        },
+        "0.2": {
+          "reference": 0.9971056439942113,
+          "price": 0.9913169319826338,
+          "liquidity": 1.0,
+          "both": 0.9927641099855282,
+          "twap": 1.0
+        }
+      },
+      "guard_triggered": false
+    },
+    "0": {
+      "arrivals": 691,
+      "common_complete_arrivals_all_sizes_arms": 685,
+      "counts": {
+        "reference": {
+          "orders": 2073,
+          "incomplete": 2,
+          "fallbacks": 0.0
+        },
+        "price": {
+          "orders": 2073,
+          "incomplete": 6,
+          "fallbacks": 0.0
+        },
+        "liquidity": {
+          "orders": 2073,
+          "incomplete": 0,
+          "fallbacks": 0.0
+        },
+        "both": {
+          "orders": 2073,
+          "incomplete": 5,
+          "fallbacks": 0.0
+        },
+        "twap": {
+          "orders": 2073,
+          "incomplete": 0,
+          "fallbacks": 0.0
+        }
+      },
+      "sizes": {
+        "0.01": {
+          "savings_bps": {
+            "reference": 0.0,
+            "price": -3.1265661415223427,
+            "liquidity": -1.5252820334099002,
+            "both": -3.839609546602497,
+            "twap": -2.635646798227416
+          },
+          "daily_savings": {
+            "2021-04-14": {
+              "reference": 0.0,
+              "price": -3.9632007330618677,
+              "liquidity": -5.262376399988384,
+              "both": -4.248213608025172,
+              "twap": -5.393476013166063
+            },
+            "2021-04-15": {
+              "reference": 0.0,
+              "price": 1.9369022079159992,
+              "liquidity": 2.2446418835986,
+              "both": 1.9414132950855134,
+              "twap": 0.6162052536971584
+            },
+            "2021-04-16": {
+              "reference": 0.0,
+              "price": -4.034096472226704,
+              "liquidity": -2.530334833283091,
+              "both": -3.9311451944773097,
+              "twap": -3.2483713038484154
+            },
+            "2021-04-17": {
+              "reference": 0.0,
+              "price": 1.6050270083455285,
+              "liquidity": 3.5287290341677724,
+              "both": 1.633646911272378,
+              "twap": 2.1138799315055152
+            },
+            "2021-04-18": {
+              "reference": 0.0,
+              "price": -11.17746271858467,
+              "liquidity": -5.607069851544399,
+              "both": -14.593749136867892,
+              "twap": -7.266471859325274
+            }
+          },
+          "asset_savings": {
+            "BTC": {
+              "reference": 0.0,
+              "price": -2.2911163240522927,
+              "liquidity": -0.3985863517820672,
+              "both": -2.3283324336679874,
+              "twap": -0.6455227885200613
+            },
+            "ETH": {
+              "reference": 0.0,
+              "price": -1.4696145399514544,
+              "liquidity": -0.362799005895261,
+              "both": -1.530456757029555,
+              "twap": -2.162721974879479
+            },
+            "ADA": {
+              "reference": 0.0,
+              "price": -5.61896756056328,
+              "liquidity": -3.8144607425523724,
+              "both": -7.660039449109948,
+              "twap": -5.098695631282707
+            }
+          },
+          "liquidity_minus_price_bps": 1.6012841081124425,
+          "interaction_bps": 0.812238628329746,
+          "components_bps": {
+            "reference": {
+              "timing_shortfall_dollars": 0.0,
+              "spread_dollars": 0.0,
+              "depth_dollars": 0.0
+            },
+            "price": {
+              "timing_shortfall_dollars": -3.1855253263466947,
+              "spread_dollars": 0.06345163477053997,
+              "depth_dollars": -0.004492449946190476
+            },
+            "liquidity": {
+              "timing_shortfall_dollars": -1.6148670770152485,
+              "spread_dollars": 0.07579479429645682,
+              "depth_dollars": 0.013790249308850066
+            },
+            "both": {
+              "timing_shortfall_dollars": -3.902085471929208,
+              "spread_dollars": 0.0683915985073999,
+              "depth_dollars": -0.005915673180715255
+            },
+            "twap": {
+              "timing_shortfall_dollars": -2.7089761962318732,
+              "spread_dollars": 0.022424314544102025,
+              "depth_dollars": 0.05090508346013467
+            }
+          }
+        },
+        "0.05": {
+          "savings_bps": {
+            "reference": 0.0,
+            "price": -3.2450385238698063,
+            "liquidity": -1.860515788497628,
+            "both": -3.7952591118370407,
+            "twap": -2.5633128472724236
+          },
+          "daily_savings": {
+            "2021-04-14": {
+              "reference": 0.0,
+              "price": -3.6944377786345988,
+              "liquidity": -5.371667231338645,
+              "both": -3.9183911618505967,
+              "twap": -4.938422963210368
+            },
+            "2021-04-15": {
+              "reference": 0.0,
+              "price": 2.064166631746805,
+              "liquidity": 1.923934305360257,
+              "both": 1.9939607307375755,
+              "twap": 0.6901871285414022
+            },
+            "2021-04-16": {
+              "reference": 0.0,
+              "price": -4.055167684550811,
+              "liquidity": -3.2522084206939397,
+              "both": -3.97952967788547,
+              "twap": -3.061034456682646
+            },
+            "2021-04-17": {
+              "reference": 0.0,
+              "price": 1.1836510438412924,
+              "liquidity": 3.1935305908979523,
+              "both": 1.1882032900313302,
+              "twap": 1.8993058255134976
+            },
+            "2021-04-18": {
+              "reference": 0.0,
+              "price": -11.723404831751717,
+              "liquidity": -5.796168186713764,
+              "both": -14.260538740218044,
+              "twap": -7.406599770524004
+            }
+          },
+          "asset_savings": {
+            "BTC": {
+              "reference": 0.0,
+              "price": -2.7372930118442267,
+              "liquidity": -1.0488132727017172,
+              "both": -2.8938452457536155,
+              "twap": -1.2145057595097126
+            },
+            "ETH": {
+              "reference": 0.0,
+              "price": -1.4311446720865908,
+              "liquidity": -1.1129016943696604,
+              "both": -1.3674386012650772,
+              "twap": -1.8713780902284356
+            },
+            "ADA": {
+              "reference": 0.0,
+              "price": -5.566677887678601,
+              "liquidity": -3.419832398421506,
+              "both": -7.124493488492431,
+              "twap": -4.6040546920791225
+            }
+          },
+          "liquidity_minus_price_bps": 1.3845227353721783,
+          "interaction_bps": 1.3102952005303936,
+          "components_bps": {
+            "reference": {
+              "timing_shortfall_dollars": 0.0,
+              "spread_dollars": 0.0,
+              "depth_dollars": 0.0
+            },
+            "price": {
+              "timing_shortfall_dollars": -3.2671525617958226,
+              "spread_dollars": 0.03738505461716222,
+              "depth_dollars": -0.015271016691164449
+            },
+            "liquidity": {
+              "timing_shortfall_dollars": -1.9501410218822044,
+              "spread_dollars": 0.06014140002327305,
+              "depth_dollars": 0.02948383336123067
+            },
+            "both": {
+              "timing_shortfall_dollars": -3.8251201781078508,
+              "spread_dollars": 0.04605951580494233,
+              "depth_dollars": -0.01619844953416499
+            },
+            "twap": {
+              "timing_shortfall_dollars": -2.6985370997406584,
+              "spread_dollars": 0.007751743118864463,
+              "depth_dollars": 0.12747250934911164
+            }
+          }
+        },
+        "0.2": {
+          "savings_bps": {
+            "reference": 0.0,
+            "price": -1.328540493422128,
+            "liquidity": -0.19692476409381549,
+            "both": -1.7817332958743624,
+            "twap": -0.8439134939228392
+          },
+          "daily_savings": {
+            "2021-04-14": {
+              "reference": 0.0,
+              "price": -2.0920903599380924,
+              "liquidity": -3.45578196808756,
+              "both": -2.2216091569898873,
+              "twap": -3.0214313021359707
+            },
+            "2021-04-15": {
+              "reference": 0.0,
+              "price": 2.6479105377894094,
+              "liquidity": 3.4332011440065435,
+              "both": 2.655329360942584,
+              "twap": 1.3359394497241475
+            },
+            "2021-04-16": {
+              "reference": 0.0,
+              "price": -2.942780725755919,
+              "liquidity": -1.2154645655417398,
+              "both": -2.9876405818441167,
+              "twap": -1.918328099285891
+            },
+            "2021-04-17": {
+              "reference": 0.0,
+              "price": 0.9521973838151601,
+              "liquidity": 2.545665008517949,
+              "both": 0.9345323345479105,
+              "twap": 1.1170193572178748
+            },
+            "2021-04-18": {
+              "reference": 0.0,
+              "price": -5.207939303021199,
+              "liquidity": -2.2922434393642703,
+              "both": -7.289278436028302,
+              "twap": -1.732766875134357
+            }
+          },
+          "asset_savings": {
+            "BTC": {
+              "reference": 0.0,
+              "price": -1.7299184658087223,
+              "liquidity": 0.15364576044597006,
+              "both": -1.969031368894261,
+              "twap": -0.3448110380887008
+            },
+            "ETH": {
+              "reference": 0.0,
+              "price": -0.08754295239859969,
+              "liquidity": -0.0010386718404517658,
+              "both": -0.06756530631918137,
+              "twap": -0.8089619850660501
+            },
+            "ADA": {
+              "reference": 0.0,
+              "price": -2.168160062059062,
+              "liquidity": -0.7433813808869646,
+              "both": -3.3086032124096447,
+              "twap": -1.3779674586137667
+            }
+          },
+          "liquidity_minus_price_bps": 1.1316157293283127,
+          "interaction_bps": -0.25626803835841877,
+          "components_bps": {
+            "reference": {
+              "timing_shortfall_dollars": 0.0,
+              "spread_dollars": 0.0,
+              "depth_dollars": 0.0
+            },
+            "price": {
+              "timing_shortfall_dollars": -1.2221736421656437,
+              "spread_dollars": 0.005468311025347138,
+              "depth_dollars": -0.1118351622816542
+            },
+            "liquidity": {
+              "timing_shortfall_dollars": -0.2384049052682021,
+              "spread_dollars": -0.0030959919798911606,
+              "depth_dollars": 0.044576133154316064
+            },
+            "both": {
+              "timing_shortfall_dollars": -1.7059851424655428,
+              "spread_dollars": 0.035229758402296314,
+              "depth_dollars": -0.1109779118110106
+            },
+            "twap": {
+              "timing_shortfall_dollars": -1.09106806423059,
+              "spread_dollars": -0.015592078840861084,
+              "depth_dollars": 0.2627466491485838
+            }
+          }
+        }
+      },
+      "size_contrast_bps": -0.4696683787841298,
+      "completion_by_size_arm": {
+        "0.01": {
+          "reference": 1.0,
+          "price": 1.0,
+          "liquidity": 1.0,
+          "both": 1.0,
+          "twap": 1.0
+        },
+        "0.05": {
+          "reference": 1.0,
+          "price": 1.0,
+          "liquidity": 1.0,
+          "both": 1.0,
+          "twap": 1.0
+        },
+        "0.2": {
+          "reference": 0.9971056439942113,
+          "price": 0.9913169319826338,
+          "liquidity": 1.0,
+          "both": 0.9927641099855282,
+          "twap": 1.0
+        }
+      },
+      "guard_triggered": false
+    }
+  }
+}

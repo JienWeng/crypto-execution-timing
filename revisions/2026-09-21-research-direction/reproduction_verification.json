@@ -1,0 +1,10 @@
+{
+  "verified": true,
+  "exact_byte_matches": {
+    "episodes.csv": true,
+    "fits.json": true,
+    "forecast_errors.json": true,
+    "data_audit.json": true
+  },
+  "timestamps_excluded": "run_manifest.json start/completion times; input paths can differ"
+}

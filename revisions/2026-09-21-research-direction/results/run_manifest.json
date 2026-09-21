@@ -1,0 +1,23 @@
+{
+  "protocol_sha256": "25035ddd1a4d11b83517a883a7ff645a1913373068f35c59b2b460cb90e06d6f",
+  "started_utc": "2026-09-21T06:00:58.927161+00:00",
+  "code_sha256": {
+    "pilot_study.py": "1695a78d651c7502a77e735bb48928d4ee5a173c5e18ff82a6993c62411b223d",
+    "book_execution.py": "fa0c751e69c729020237f6a6ecbdf69a5c724ba5364e7b04125571497a8a0d83"
+  },
+  "inputs": {
+    "BTC": {
+      "path": "data/orderbook/open_pilots/martinsn_BTC_causal_minutes.npz",
+      "sha256": "0308db0931210e53a22e190d585f7ed114016070564f0ccad915fde7bfe22537"
+    },
+    "ETH": {
+      "path": "data/orderbook/open_pilots/martinsn_ETH_causal_minutes.npz",
+      "sha256": "30c64a4dbb74a93adb5cacbeadb5ec91dfa240fadcb8376b31f49497ec38a797"
+    },
+    "ADA": {
+      "path": "data/orderbook/open_pilots/martinsn_ADA_causal_minutes.npz",
+      "sha256": "821ef11ab956972c778ecf7b703e5ed3f0b7005d7fa19fd712b6f5aa31687b4a"
+    }
+  },
+  "completed_utc": "2026-09-21T06:01:21.614980+00:00"
+}

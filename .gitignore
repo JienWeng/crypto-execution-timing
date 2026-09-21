@@ -10,3 +10,7 @@ manuscript/revised/*.pdf
 
 # Compiled papers stay local until publication is requested.
 *.pdf
+
+# Raw order-book archives are downloaded with pinned checksums.
+data/orderbook/**/*.download
+data/orderbook/**/*.part

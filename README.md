@@ -4,6 +4,8 @@
 
 [Latest manuscript source](submission/forecast-selection-study/source/main.tex) · [Supporting appendices](submission/forecast-selection-study/source/appendices.tex) · [Experiment report](revisions/2026-09-20-selection/REPORT.md) · [Earlier full paper](manuscript/full/main.tex)
 
+[New price-versus-liquidity pilot](revisions/2026-09-21-research-direction/README.md): code, CC0 order-book samples and results. Five evaluation dates; forecast superiority is not established.
+
 ## Reproduce
 
 Python 3.11+, from the repository root:

@@ -1,0 +1,16 @@
+{
+  "symbol": "ADA",
+  "source": "data/orderbook/open_pilots/martinsn_ADA_1sec.csv.download",
+  "sha256": "27a6d48e53aa6180fada3b25ff54d6437d4ba4b926690ed78a386bc6a7f03273",
+  "compressed_bytes": 290410697,
+  "raw_rows": 1030533,
+  "sampled_minutes": 17164,
+  "stale_minutes": 0,
+  "invalid_books": 12,
+  "first_boundary_utc": "2021-04-07T11:34:00+00:00",
+  "last_boundary_utc": "2021-04-19T09:49:00+00:00",
+  "max_raw_gap_seconds": 3.061901,
+  "max_age_seconds": 1.008321,
+  "timestamp_semantics": "source_timestamp_us is dataset system_time with explicit +00:00 offset; independent receipt and exchange times unavailable",
+  "outcomes_evaluated": false
+}
