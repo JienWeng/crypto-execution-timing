@@ -77,8 +77,20 @@ At the 5\% size, liquidity forecasting saves $0.060$ bps in spread and $0.029$ b
 
 The reference also outperforms TWAP by $2.563$ bps at the central size. This is descriptive evidence from the same five dates, not an independently established strategy improvement. At 20\% depth, completion ranges from 99.13\% to 100\% across policies. The prespecified 1\% incompletion guard is not triggered, but six arrivals are excluded from the matched complete sample. All failures remain in the episode records. Independent-snapshot replay produces nearly identical pooled central-size results. A common illustrative 10bps proportional fee scales relative proceeds; it does not rescue the forecast policies.
 
+\section{Was the failure caused by weak forecasts or weak information?}
+After completing the frozen pilot, we recorded and ran a separate hindsight diagnostic. It uses the same arrivals and constraints but supplies realized future inputs to the planner. These schedules are not feasible strategies. Only the full oracle is an upper bound within the planner; a single-input hindsight schedule still substitutes the reference for its missing input.
+
+At the 5\% size, supplying the realized future price path saves 25.805 bps, while the full oracle saves 25.850 bps. Realized future books add 0.045 bps after future prices are known. The corresponding increments are 0.033, 0.045 and 0.075 bps as the sale grows from 1\% to 20\% of displayed depth. Thus future price timing dominates the ex-post opportunity in this pilot. Liquidity becomes incrementally more relevant for larger orders, but its magnitude remains small relative to roughly 26--27 bps of price information.
+
+\begin{figure}[h]
+\centering\includegraphics[width=.78\linewidth]{oracle_value.png}
+\caption{Post-pilot hindsight diagnostic. Values measure ex-post decision relevance, not achievable forecast performance.}
+\end{figure}
+
+The learned price policy loses 3.309 bps at the central size despite the large hindsight-price opportunity. The observed failure therefore cannot be attributed to an absence of price-timing value. The tested causal forecast did not capture that value and shifted execution in the wrong direction on average. Improving this result requires stronger forecasting and policy calibration on new data, not a more favourable description of the existing policy.
+
 \section{Decision and next evidence required}
-The contribution is now specific enough to test: quantify which forecast information is useful at a given order size, and show which cost channel explains it. The pilot has not established the desired practical advantage or a stable order-size boundary. It should not be presented as a stronger completed paper merely because the design is more elaborate.
+The contribution is now specific enough to test: quantify the attainable value of price and liquidity information at a given order size, measure how much causal forecasts realize, and show which cost channel explains the difference. The pilot indicates a large unused price-timing opportunity and a small size-dependent liquidity increment. It has not established an effective feasible policy or a stable population relationship. It should not be presented as a stronger completed paper merely because the design is more elaborate.
 
 A larger study needs a substantially longer order-book history, multiple market conditions, stronger validation of execution assumptions and a fresh frozen evaluation period. The closest open historical candidate is the CC0 multi-exchange Bitcoin dataset associated with Hautsch, Scheuch and Voigt \cite{dryad}; its download currently requires access not available in this session. An accessible vendor sample was kept out of the research package because its redistribution and model-use terms conflict with a fully open release. No paid subscription or exchange order was placed.
 

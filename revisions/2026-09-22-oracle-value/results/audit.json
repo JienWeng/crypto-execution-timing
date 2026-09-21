@@ -1,0 +1,17 @@
+{
+  "BTC": {
+    "evaluation_arrivals": 225,
+    "failed_arrival_size_cases": 0,
+    "input_sha256": "0308db0931210e53a22e190d585f7ed114016070564f0ccad915fde7bfe22537"
+  },
+  "ETH": {
+    "evaluation_arrivals": 232,
+    "failed_arrival_size_cases": 0,
+    "input_sha256": "30c64a4dbb74a93adb5cacbeadb5ec91dfa240fadcb8376b31f49497ec38a797"
+  },
+  "ADA": {
+    "evaluation_arrivals": 234,
+    "failed_arrival_size_cases": 0,
+    "input_sha256": "821ef11ab956972c778ecf7b703e5ed3f0b7005d7fa19fd712b6f5aa31687b4a"
+  }
+}

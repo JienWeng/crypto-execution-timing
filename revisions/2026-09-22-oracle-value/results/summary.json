@@ -1,0 +1,405 @@
+{
+  "status": "post-pilot descriptive oracle diagnostic",
+  "modes": {
+    "0": {
+      "0.01": {
+        "common_complete_arrivals": 691,
+        "savings_bps": {
+          "full_oracle": 25.832534880114856,
+          "oracle_liquidity": -1.517375117508799,
+          "liquidity": -1.5183589530979855,
+          "price": -3.212589923591975,
+          "reference": 0.0,
+          "both": -3.9257122215683444,
+          "oracle_price": 25.79920193552553
+        },
+        "oracle_liquidity_minus_price_bps": -27.31657705303433,
+        "incremental_liquidity_given_price_bps": 0.033332944589325564,
+        "incremental_price_given_liquidity_bps": 27.349909997623655,
+        "unused_price_value_bps": 29.011791859117505,
+        "unused_liquidity_value_bps": 0.0009838355891864659,
+        "price_realization_ratio": -0.12452284111812911,
+        "liquidity_realization_ratio": null,
+        "daily_savings": {
+          "2021-04-14": {
+            "full_oracle": 27.161329476753338,
+            "oracle_liquidity": -3.6253500667963947,
+            "liquidity": -5.262376399988384,
+            "price": -3.9632007330618677,
+            "reference": 0.0,
+            "both": -4.248213608025172,
+            "oracle_price": 27.130998385275717
+          },
+          "2021-04-15": {
+            "full_oracle": 20.731136772111256,
+            "oracle_liquidity": 3.529922214270694,
+            "liquidity": 2.2348591300249403,
+            "price": 1.6904925143338223,
+            "reference": 0.0,
+            "both": 1.695275375123211,
+            "oracle_price": 20.710563614680407
+          },
+          "2021-04-16": {
+            "full_oracle": 21.482309800765695,
+            "oracle_liquidity": -1.0062917159174243,
+            "liquidity": -2.5811074513235353,
+            "price": -4.224523512826721,
+            "reference": 0.0,
+            "both": -4.122367874119151,
+            "oracle_price": 21.479408301842223
+          },
+          "2021-04-17": {
+            "full_oracle": 21.66268818405024,
+            "oracle_liquidity": 3.6910004987519662,
+            "liquidity": 3.623899807341451,
+            "price": 1.6117448321795642,
+            "reference": 0.0,
+            "both": 1.6404941360472807,
+            "oracle_price": 21.64174518259648
+          },
+          "2021-04-18": {
+            "full_oracle": 38.125210166893744,
+            "oracle_liquidity": -10.176156517852837,
+            "liquidity": -5.607069851544399,
+            "price": -11.17746271858467,
+            "reference": 0.0,
+            "both": -14.593749136867892,
+            "oracle_price": 38.03329419323281
+          }
+        }
+      },
+      "0.05": {
+        "common_complete_arrivals": 691,
+        "savings_bps": {
+          "full_oracle": 25.84957133801559,
+          "oracle_liquidity": -1.0678294662287107,
+          "liquidity": -1.8349143046412717,
+          "price": -3.308514977040064,
+          "reference": 0.0,
+          "both": -3.8572244843604486,
+          "oracle_price": 25.804694931049955
+        },
+        "oracle_liquidity_minus_price_bps": -26.872524397278667,
+        "incremental_liquidity_given_price_bps": 0.044876406965634885,
+        "incremental_price_given_liquidity_bps": 26.917400804244302,
+        "unused_price_value_bps": 29.11320990809002,
+        "unused_liquidity_value_bps": 0.767084838412561,
+        "price_realization_ratio": -0.1282136830480036,
+        "liquidity_realization_ratio": null,
+        "daily_savings": {
+          "2021-04-14": {
+            "full_oracle": 27.539411660251258,
+            "oracle_liquidity": -2.6260777499209813,
+            "liquidity": -5.371667231338645,
+            "price": -3.6944377786345988,
+            "reference": 0.0,
+            "both": -3.9183911618505967,
+            "oracle_price": 27.48602336860881
+          },
+          "2021-04-15": {
+            "full_oracle": 20.745835183667648,
+            "oracle_liquidity": 3.7565169638593545,
+            "liquidity": 1.914306995387338,
+            "price": 1.815634745281729,
+            "reference": 0.0,
+            "both": 1.7511136090482111,
+            "oracle_price": 20.705732007633376
+          },
+          "2021-04-16": {
+            "full_oracle": 21.724395359300853,
+            "oracle_liquidity": -0.453698678624209,
+            "liquidity": -3.210898584303777,
+            "price": -4.131875926683322,
+            "reference": 0.0,
+            "both": -4.053990772867856,
+            "oracle_price": 21.716018774529555
+          },
+          "2021-04-17": {
+            "full_oracle": 21.383961867284622,
+            "oracle_liquidity": 3.4162774910278184,
+            "liquidity": 3.2898554837624894,
+            "price": 1.1915089065875881,
+            "reference": 0.0,
+            "both": 1.1956846440860411,
+            "oracle_price": 21.354703872912637
+          },
+          "2021-04-18": {
+            "full_oracle": 37.854252619573565,
+            "oracle_liquidity": -9.432165357485536,
+            "liquidity": -5.796168186713764,
+            "price": -11.723404831751717,
+            "reference": 0.0,
+            "both": -14.260538740218044,
+            "oracle_price": 37.76099663156538
+          }
+        }
+      },
+      "0.2": {
+        "common_complete_arrivals": 685,
+        "savings_bps": {
+          "full_oracle": 27.23062368802244,
+          "oracle_liquidity": 0.4716535349459193,
+          "liquidity": -0.19692476409381549,
+          "price": -1.328540493422128,
+          "reference": 0.0,
+          "both": -1.7817332958743624,
+          "oracle_price": 27.155408287383786
+        },
+        "oracle_liquidity_minus_price_bps": -26.683754752437867,
+        "incremental_liquidity_given_price_bps": 0.07521540063865473,
+        "incremental_price_given_liquidity_bps": 26.758970153076522,
+        "unused_price_value_bps": 28.483948780805914,
+        "unused_liquidity_value_bps": 0.6685782990397348,
+        "price_realization_ratio": -0.04892360591165771,
+        "liquidity_realization_ratio": -0.4175199579844033,
+        "daily_savings": {
+          "2021-04-14": {
+            "full_oracle": 29.148736969747677,
+            "oracle_liquidity": -0.39314356341637025,
+            "liquidity": -3.45578196808756,
+            "price": -2.0920903599380924,
+            "reference": 0.0,
+            "both": -2.2216091569898873,
+            "oracle_price": 29.082074651292103
+          },
+          "2021-04-15": {
+            "full_oracle": 21.173732648353432,
+            "oracle_liquidity": 3.6917970491501766,
+            "liquidity": 3.4332011440065435,
+            "price": 2.6479105377894094,
+            "reference": 0.0,
+            "both": 2.655329360942584,
+            "oracle_price": 21.099755843197553
+          },
+          "2021-04-16": {
+            "full_oracle": 22.567411879634367,
+            "oracle_liquidity": -0.23716096265656747,
+            "liquidity": -1.2154645655417398,
+            "price": -2.942780725755919,
+            "reference": 0.0,
+            "both": -2.9876405818441167,
+            "oracle_price": 22.528820055918164
+          },
+          "2021-04-17": {
+            "full_oracle": 20.347609337505656,
+            "oracle_liquidity": 2.121012547302709,
+            "liquidity": 2.545665008517949,
+            "price": 0.9521973838151601,
+            "reference": 0.0,
+            "both": 0.9345323345479105,
+            "oracle_price": 20.277812649938266
+          },
+          "2021-04-18": {
+            "full_oracle": 42.915627604871055,
+            "oracle_liquidity": -2.8242373956503517,
+            "liquidity": -2.2922434393642703,
+            "price": -5.207939303021199,
+            "reference": 0.0,
+            "both": -7.289278436028302,
+            "oracle_price": 42.788578236572825
+          }
+        }
+      }
+    },
+    "1": {
+      "0.01": {
+        "common_complete_arrivals": 691,
+        "savings_bps": {
+          "full_oracle": 25.832534880114856,
+          "oracle_liquidity": -1.517375117508799,
+          "liquidity": -1.518359170969923,
+          "price": -3.2125901414639118,
+          "reference": 0.0,
+          "both": -3.9257124394402823,
+          "oracle_price": 25.79920193552553
+        },
+        "oracle_liquidity_minus_price_bps": -27.31657705303433,
+        "incremental_liquidity_given_price_bps": 0.033332944589325564,
+        "incremental_price_given_liquidity_bps": 27.349909997623655,
+        "unused_price_value_bps": 29.011792076989444,
+        "unused_liquidity_value_bps": 0.000984053461123846,
+        "price_realization_ratio": -0.12452284956303905,
+        "liquidity_realization_ratio": null,
+        "daily_savings": {
+          "2021-04-14": {
+            "full_oracle": 27.161329476753338,
+            "oracle_liquidity": -3.6253500667963947,
+            "liquidity": -5.262376399988384,
+            "price": -3.9632007330618677,
+            "reference": 0.0,
+            "both": -4.248213608025172,
+            "oracle_price": 27.130998385275717
+          },
+          "2021-04-15": {
+            "full_oracle": 20.731136772111256,
+            "oracle_liquidity": 3.529922214270694,
+            "liquidity": 2.2348591300249403,
+            "price": 1.6904925143338223,
+            "reference": 0.0,
+            "both": 1.695275375123211,
+            "oracle_price": 20.710563614680407
+          },
+          "2021-04-16": {
+            "full_oracle": 21.482309800765695,
+            "oracle_liquidity": -1.0062917159174243,
+            "liquidity": -2.5811074513235353,
+            "price": -4.224523512826721,
+            "reference": 0.0,
+            "both": -4.122367874119151,
+            "oracle_price": 21.479408301842223
+          },
+          "2021-04-17": {
+            "full_oracle": 21.66268818405024,
+            "oracle_liquidity": 3.6910004987519662,
+            "liquidity": 3.6238987179817634,
+            "price": 1.611743742819877,
+            "reference": 0.0,
+            "both": 1.6404930466875935,
+            "oracle_price": 21.64174518259648
+          },
+          "2021-04-18": {
+            "full_oracle": 38.125210166893744,
+            "oracle_liquidity": -10.176156517852837,
+            "liquidity": -5.607069851544399,
+            "price": -11.17746271858467,
+            "reference": 0.0,
+            "both": -14.593749136867892,
+            "oracle_price": 38.03329419323281
+          }
+        }
+      },
+      "0.05": {
+        "common_complete_arrivals": 691,
+        "savings_bps": {
+          "full_oracle": 25.84952759540178,
+          "oracle_liquidity": -1.0680967797634289,
+          "liquidity": -1.8350135583178186,
+          "price": -3.308584395730564,
+          "reference": 0.0,
+          "both": -3.8572939030509517,
+          "oracle_price": 25.80465118843615
+        },
+        "oracle_liquidity_minus_price_bps": -26.87274796819958,
+        "incremental_liquidity_given_price_bps": 0.04487640696563133,
+        "incremental_price_given_liquidity_bps": 26.91762437516521,
+        "unused_price_value_bps": 29.113235584166713,
+        "unused_liquidity_value_bps": 0.7669167785543898,
+        "price_realization_ratio": -0.12821659055066947,
+        "liquidity_realization_ratio": null,
+        "daily_savings": {
+          "2021-04-14": {
+            "full_oracle": 27.539411660251258,
+            "oracle_liquidity": -2.6260777499209813,
+            "liquidity": -5.371667231338645,
+            "price": -3.6945523455150195,
+            "reference": 0.0,
+            "both": -3.9185057287310303,
+            "oracle_price": 27.48602336860881
+          },
+          "2021-04-15": {
+            "full_oracle": 20.745835183667648,
+            "oracle_liquidity": 3.7565169638593545,
+            "liquidity": 1.914306995387338,
+            "price": 1.815634745281729,
+            "reference": 0.0,
+            "both": 1.7511136090482111,
+            "oracle_price": 20.705732007633376
+          },
+          "2021-04-16": {
+            "full_oracle": 21.725694574313266,
+            "oracle_liquidity": -0.45239946361179345,
+            "liquidity": -3.211396222051924,
+            "price": -4.130576711670908,
+            "reference": 0.0,
+            "both": -4.05269155785544,
+            "oracle_price": 21.717317989541968
+          },
+          "2021-04-17": {
+            "full_oracle": 21.38244393920319,
+            "oracle_liquidity": 3.415300393984761,
+            "liquidity": 3.2898568531279024,
+            "price": 1.1899771650030935,
+            "reference": 0.0,
+            "both": 1.1941529025015463,
+            "oracle_price": 21.35318594483121
+          },
+          "2021-04-18": {
+            "full_oracle": 37.854252619573565,
+            "oracle_liquidity": -9.433824043128485,
+            "liquidity": -5.796168186713764,
+            "price": -11.723404831751717,
+            "reference": 0.0,
+            "both": -14.260538740218044,
+            "oracle_price": 37.76099663156538
+          }
+        }
+      },
+      "0.2": {
+        "common_complete_arrivals": 685,
+        "savings_bps": {
+          "full_oracle": 27.230837100044567,
+          "oracle_liquidity": 0.4722411714782745,
+          "liquidity": -0.19552033937919858,
+          "price": -1.3290445279465004,
+          "reference": 0.0,
+          "both": -1.7821213642034173,
+          "oracle_price": 27.155943188454927
+        },
+        "oracle_liquidity_minus_price_bps": -26.683702016976653,
+        "incremental_liquidity_given_price_bps": 0.07489391158964054,
+        "incremental_price_given_liquidity_bps": 26.758595928566294,
+        "unused_price_value_bps": 28.484987716401427,
+        "unused_liquidity_value_bps": 0.667761510857473,
+        "price_realization_ratio": -0.04894120298909486,
+        "liquidity_realization_ratio": -0.41402645764060303,
+        "daily_savings": {
+          "2021-04-14": {
+            "full_oracle": 29.14975605034171,
+            "oracle_liquidity": -0.39237886393401694,
+            "liquidity": -3.454922194204863,
+            "price": -2.0927420468577704,
+            "reference": 0.0,
+            "both": -2.221754456741513,
+            "oracle_price": 29.08309373188614
+          },
+          "2021-04-15": {
+            "full_oracle": 21.176709138845776,
+            "oracle_liquidity": 3.698205077260805,
+            "liquidity": 3.439904902179664,
+            "price": 2.6479105377894094,
+            "reference": 0.0,
+            "both": 2.655329360942584,
+            "oracle_price": 21.102732333689882
+          },
+          "2021-04-16": {
+            "full_oracle": 22.56813098047814,
+            "oracle_liquidity": -0.2375552833687986,
+            "liquidity": -1.2155282055602905,
+            "price": -2.943274755848273,
+            "reference": 0.0,
+            "both": -2.98813461193647,
+            "oracle_price": 22.52953915676194
+          },
+          "2021-04-17": {
+            "full_oracle": 20.34396172568614,
+            "oracle_liquidity": 2.1180016656800142,
+            "liquidity": 2.545701349265814,
+            "price": 0.9508229282053309,
+            "reference": 0.0,
+            "both": 0.9332313227466148,
+            "oracle_price": 20.275772483363834
+          },
+          "2021-04-18": {
+            "full_oracle": 42.915627604871055,
+            "oracle_liquidity": -2.825066738246631,
+            "liquidity": -2.292757548576317,
+            "price": -5.207939303021199,
+            "reference": 0.0,
+            "both": -7.289278436028302,
+            "oracle_price": 42.788578236572825
+          }
+        }
+      }
+    }
+  }
+}

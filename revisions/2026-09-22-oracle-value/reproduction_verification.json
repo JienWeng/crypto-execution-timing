@@ -1,0 +1,8 @@
+{
+  "verified": true,
+  "exact_byte_matches": {
+    "episodes.csv": true,
+    "audit.json": true,
+    "manifest.json": true
+  }
+}
